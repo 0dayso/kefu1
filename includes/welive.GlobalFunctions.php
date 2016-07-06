@@ -319,7 +319,7 @@ if(!defined('WELIVE')) die('File not found!');
 	return Iif(empty($arr), true, $arr);
 }
 
-// #####################
+// #####################更新cache文件
 function refreshCache($userid, $item, $new_value = '0'){
 	$filename = BASEPATH . "cache/online_cache.php";
 

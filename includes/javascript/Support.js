@@ -404,7 +404,7 @@ function setStatus(status) {
     }
 }
 function ajax(url, callback, updating, loading, format, method) {
-    
+
     clearTimeout(response_tout);
     lock = 1;
     if (!method) method = "POST";
@@ -538,6 +538,16 @@ function welive() {
     if (lock == 1) return;
     ajax("swaiting.php")
 }
+function gettd() {
+    var classElements = [],firstt = 'firstt',allElements = document.getElementsByTagName('td');//所有div
+    for (var i=0; i< allElements.length; i++ )
+    {
+        if (allElements[i].className == firstt ) {
+            classElements[classElements.length] = allElements[i];
+        }
+    }
+    return classElements.length
+}
 function initObj() {
     eWelive = $('welive');
     eSounder = $('sounder');
@@ -545,7 +555,11 @@ function initObj() {
     eStatus_ok = $('status_ok');
     eStatus_err = $('status_err');
     eStatus_err2 = $('status_err2')
+
+
 }
+
+//输出客服对话列表
 function welive_output(data) {
     lock = 0;
     waiting();
@@ -561,6 +575,7 @@ function welive_output(data) {
     newdata = newdata.split('||||||');
     ajax_last = newdata[0];
     allguests = newdata[1];
+
     if (allguests == 2) {
         setStatus(2);
         return
@@ -571,6 +586,12 @@ function welive_output(data) {
         allmsgs = newdata[2]
     }
     allguests = allguests.split('^^^');
+    //console.log(allguests);
+    var num = gettd();
+    console.log(num);
+    if(num > 10) {
+        setbusy()
+    }               //添加超过10人自动挂起
     for (var i = 0; i < allguests.length; i++) {
         aguest = allguests[i].split('|||');
         if (!aguest[1]) continue;
@@ -584,7 +605,7 @@ function welive_output(data) {
                 row.setAttribute("id", "g" + gid);
                 cell = document.createElement("td");
                 cell.innerHTML = '<a href="javascript:;" hidefocus="true" onclick="openwin(' + gid + ', \'' + guestname + gid + '\');return false;" title="打开对话窗口">' + guestname + gid + '</a> (<span id="new' + gid + '">0</span>)';
-                cell.className = 'first';
+                cell.className = 'firstt';
                 row.appendChild(cell);
                 cell = document.createElement("td");
                 cell.setAttribute("id", "login" + gid);
@@ -633,7 +654,7 @@ function welive_output(data) {
         console.log(1);
         eNoguest.style.display = 'block'
     } else {
-        console.log(2);
+
         eNoguest.style.display = 'none'
     }
     if (allmsgs.length > 18) {
