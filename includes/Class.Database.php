@@ -1,7 +1,7 @@
 <?php
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 

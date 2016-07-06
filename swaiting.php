@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -49,7 +49,7 @@ if($gid AND $act == 'sending'){ //发表信息
 	$ajaxbiu = ForceIncomingString('ajaxbiu', '000');
 	$ajaxcolor = ForceIncomingString('ajaxcolor', '0');
 
-	$DB->exe("INSERT INTO " . TABLE_PREFIX . "msg (fromid, toid, msg, biu, color, created, minitime, type) VALUES ('$uid', '$gid', '$ajaxline', '$ajaxbiu', '$ajaxcolor', '$realtime', '$minitime', 1)");
+	$DB->exe("INSERT INTO " . TABLE_PREFIX . "msg (fromid, userip, toid, msg, biu, color, created, minitime, type) VALUES ('$uid','".GetIP()."', '$gid', '$ajaxline', '$ajaxbiu', '$ajaxcolor', '$realtime', '$minitime', 1)");
 
 	$msgs .= $gid . '|||1|||'.html($ajaxline) .'|||2|||'.$ajaxbiu .'|||'.$ajaxcolor .'^^^';
 }

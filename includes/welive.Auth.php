@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -123,7 +123,7 @@ function LogIn(){
 	<div class="submit">
 	<input type="submit" onclick="setSafeCookie();return true;" value="' . $lang['login'] . '" class="button" />
 	</div>
-	<div class="copyright">&copy; '.date("Y") .' <a href="'.APP_URL.'" target="_blank">'. APP_NAME .'</a></div>
+	<div class="copyright">&copy; '.date("Y") .''. ssssss .'</div>
 	</form>
 	</div>
 	</body>
@@ -164,7 +164,7 @@ function CreateSession($userid){
 	setcookie(COOKIE_NAME, $sessionid, 0, "/");
 	setcookie('last'.COOKIE_KEY, $timenow, 0, "/");
 
-	setcookie('weliveU'.COOKIE_KEY, md5(WEBSITE_KEY.$userid.$_CFG['cKillRobotCode']), 0, "/");         //用于AJAX验证
+	setcookie('weliveU'.COOKIE_KEY, md5(WEBSITE_KEY.$userid.$_CFG['cKillRobotCode']), 0, "/");         //用于AJAX验证d
 }
 
 

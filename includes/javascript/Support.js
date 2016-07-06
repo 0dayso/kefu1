@@ -1,1 +1,715 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('c $(j){l 1Q j=="42"?H.4G(j):j}c 2y(3Y){l 1Q 3Y==\'4F\'?S:F}c 1O(2A,34){7(1Q 2A==\'42\'||1Q 2A==\'4E\'){11(9 i 1u 34){7(34[i]==2A){l S}}}l F}c 4H(e){7(2y(e))e=2X.3u;9 3Q=H.4I?e.4K:e.2Q;l 3Q}c 4d(){3V(3k);1z=1;3k=4J(c(){7(1z==1){H.1l=\'【新消息】\'+3p;1z=2}p{H.1l=\'【　　　】\'+3p;1z=1}},2C)}c 4D(){7(1z!=0){1z=0;3V(3k);H.1l=3p}}c 2w(){9 2p=3f 4C();c 2o(B,3j){9 i;B=""+B;7(B.L<3j){11(i=0;i<(3j-B.L);i++)B="0"+B}l B}l 2o(2p.4x(),2)+\':\'+2o(2p.4w(),2)+\':\'+2o(2p.4v(),2)}c 4y(8,2G,2H,20){20=!20?8:20;7(8.4j){8.4j(2G,2H,F)}p 7(20.4m){8.4m(\'1V\'+2G,2H)}}c 4n(){7(1y>=59){1y=0;1x+=1}p{1y+=1}7(1x>=60){1x=0;1X+=1}4o();T(\'4n()\',4h)}c 4o(){9 2u,2k,1U;7(1y<10){2u="0"+1y}p{2u=1y}7(1x<10){2k="0"+1x}p{2k=1x}7(1X<10){7(1X>0){1U="0"+1X+":"}p{1U=""}}p{1U=1X+":"}$("4z").z=1U+2k+":"+2u}c 4B(8,48){9 2E=8.t;8.t=\'3E\'+48+\'4A\';8.1c=c(){3U.t=2E}}c 4L(8){7(1F==1){8.1l=4u}p{8.1l=4M}}c 29(j){9 8=$("Q"+j);7(8)8.1e()}c 4Y(j,P){I(1p);29(j);9 1g=$("2W"+j);7(!1g)l;9 1m=$("3t"+j);9 1f=$("3v"+j);1g.t=\'4X\';1p=T(c(){1m.h.v=\'C\';1f.h.v=\'12\';1f.2I=c(){I(1p)};1f.1c=c(){I(1p);1p=T(c(){1f.h.v=\'C\';7(1G=="0"){1g.t=\'4f\'}p{1g.t=\'2z\'}},2C)}},(P||P==0)?P:2N);1g.1c=c(){I(1p);1p=T(c(){1f.h.v=\'C\';7(1G=="0"){1g.t=\'4f\'}p{1g.t=\'2z\'}},2U)}}c 4Z(j,1b){9 2R=$("Q"+j);7(!2R)l;1G=1b;2R.1e();11(9 k 1u u){9 8=$(\'2W\'+u[k]);9 q=$("Q"+u[k]);7(!8||!q)1i;8.t=\'2z\';q.h.14="#"+1b}}c 51(j,P){I(1o);29(j);9 1v=$("53"+j);7(!1v)l;9 1m=$("3t"+j);9 1f=$("3v"+j);1v.t=\'52\';1o=T(c(){1f.h.v=\'C\';1m.h.v=\'12\';1m.2I=c(){I(1o)};1m.1c=c(){I(1o);1o=T(c(){1m.h.v=\'C\';1v.t=\'3D\'},2C)}},(P||P==0)?P:2N);1v.1c=c(){I(1o);1o=T(c(){1m.h.v=\'C\';1v.t=\'3D\'},2U)}}c 4V(j,1b){9 8=$("Q"+j);7(!8)l;9 13=H.13;8.1e();1b+=\' \';7(!2y(8.1K)){9 40=8.1K+0;8.B=8.B.1h(0,8.1K)+1b+8.B.1h(8.43)}p 7(13&&13.2F){9 1A=13.2F();1A.3i=1b;1A.3N(\'3S\',-1b.L)}p{8.B+=1b}}c 4U(j,P){I(1k);29(j);9 1d=$("4l"+j);7(!1d)l;2L=j;9 U=$("47");9 e=2X.3u||3y.4P.4O.3y[0];9 3J=e.4N;9 3G=e.4Q;1d.t=\'4R\';1k=T(c(){U.h.4T=3G-4S+\'3L\';U.h.54=3J-4r+\'3L\';U.h.3w=3w+4s;U.h.v=\'12\';U.2I=c(){I(1k)};U.1c=c(){I(1k);1k=T(c(){U.h.v=\'C\';1d.t=\'2T\'},2C)}},(P||P==0)?P:2N);1d.1c=c(){I(1k);1k=T(c(){U.h.v=\'C\';1d.t=\'2T\'},2U)}}c 4q(8){9 2E=8.t;8.t=\'4t\';8.1c=c(){3U.t=2E}}c 4p(41){9 8=$("Q"+2L);7(!8)l;9 E=41.z;7(E==\'\')l;9 13=H.13;8.1e();7(!2y(8.1K)){9 40=8.1K+0;8.B=8.B.1h(0,8.1K)+E+8.B.1h(8.43)}p 7(13&&13.2F){9 1A=13.2F();1A.3i=E;1A.3N(\'3S\',-E.L)}p{8.B+=E}I(1k);9 U=$("47");U.h.v=\'C\';9 1d=$("4l"+2L);7(1d)1d.t=\'2T\'}c 3X(j){9 8;9 q=$("Q"+j);7(1F==0){8=$(\'35\'+j);7(8)8.t=\'5Q\'}7(1G!=\'0\'){8=$(\'2W\'+j);7(8)8.t=\'2z\';7(q)q.h.14="#"+1G}7(1W==\'1\'){8=$(\'33\'+j);7(8)8.t=\'6b\';7(q)q.h.3I=\'2c\'}7(1P==\'1\'){8=$(\'3c\'+j);7(8)8.t=\'5P\';7(q)q.h.3x=\'2j\'}7(24==\'1\'){8=$(\'3a\'+j);7(8)8.t=\'5O\';7(q)q.h.3A=\'2f\'}}c 5R(j,1H){9 8=$(\'3E\'+1H+\'5T\'+j);9 q=$("Q"+j);7(!8||!q)l;7(1H==\'4e\'){7(1F==1){1F=0;36(\'2n\')}p{1F=1;36(\'1V\')}}p 7(1H==\'2c\'){7(1W==\'1\'){1W=\'0\';32(\'2n\',\'3C\')}p{1W=\'1\';32(\'1V\',\'2c\')}}p 7(1H==\'2j\'){7(1P==\'1\'){1P=\'0\';2V(\'2n\',\'3C\')}p{1P=\'1\';2V(\'1V\',\'2j\')}}p 7(1H==\'2f\'){7(24==\'1\'){24=\'0\';3g(\'2n\',\'C\')}p{24=\'1\';3g(\'1V\',\'2f\')}}8.1c=3H;q.1e()}c 5J(j){9 q=$("Q"+j);7(!q)l;q.B=\'\';q.1e()}c 36(h){11(9 k 1u u){9 8=$(\'35\'+u[k]);7(!8)1i;8.t=\'35\'+h}}c 32(1C,1B){11(9 k 1u u){9 8=$(\'33\'+u[k]);9 q=$("Q"+u[k]);7(!8||!q)1i;8.t=\'33\'+1C;q.h.3I=1B}}c 2V(1C,1B){11(9 k 1u u){9 8=$(\'3c\'+u[k]);9 q=$("Q"+u[k]);7(!8||!q)1i;8.t=\'3c\'+1C;q.h.3x=1B}}c 3g(1C,1B){11(9 k 1u u){9 8=$(\'3a\'+u[k]);9 q=$("Q"+u[k]);7(!8||!q)1i;8.t=\'3a\'+1C;q.h.3A=1B}}c 21(1D){7(2v==1D)l;2v=1D;7(1D==0){2t.h.v="C";2r.h.v="12";2q.h.v="C"}p 7(1D==1){2t.h.v="12";2r.h.v="C";2q.h.v="C"}p{2t.h.v="C";2r.h.v="C";2q.h.v="12"}}c X(A,2h,3K,1E,3o,1T){I(2S);19=1;7(!1T)1T="55";7(!1E)1E="1E";7(!2h)2h=4i;A+=(A.5K("?")+1)?"&":"?";A+="2K="+2K+"&"+5U;5V.66({"A":A,"65":2h,"67":c(1D){21(0);19=0;22()},"3o":3o,"1T":1T,"64":3K,"1E":1E});l F}c 63(){X("1j.Z?1a=5X",1s)}c 5Y(){19=0;X("1j.Z?1a=1J")}c 1S(){X("1j.Z?1a=1S",1s);9 8=$(\'1S\');7(8)8.z=\'<a J="V:;" W="2O();l F;"><b><G h="14:#5Z;">解除挂起 ！！！</G></b></a>\'}c 2O(){X("1j.Z?1a=2O",1s);9 8=$(\'1S\');7(8)8.z=\'<a J="V:;" W="1S();l F;"><b>挂起</b></a> \'}c 1Y(f){X("1j.Z?1a=1Y&f="+f,1s);9 8=$(\'1Z\'+f);7(8)8.z=\'<a J="V:;" y="27" 16="S" W="2e(\'+f+\');l F;">\'+3R+\'</a>&R;&R;|&R;&R;<a J="V:;" 16="S" W="23(\'+f+\');l F;">踢出</a>\';7(1O(f,u)){u[\'g\'+f][\'1Y\']=1;2x(f+\'|||0|||\'+1n+f+5E+\'|||0|||1N|||0^^^\')}}c 2e(f){X("1j.Z?1a=2e&f="+f,1s);9 8=$(\'1Z\'+f);7(8)8.z=\'<a J="V:;" 16="S" W="1Y(\'+f+\');l F;">\'+1Z+\'</a>&R;&R;|&R;&R;<a J="V:;" 16="S" W="23(\'+f+\');l F;">踢出</a>\';7(1O(f,u)){2x(f+\'|||0|||\'+1n+f+5i+\'|||1|||1N|||0^^^\')}}c 23(f){X("1j.Z?1a=23&f="+f,1s);9 K=$(\'g\'+f);7(K)2D.3q(K);1r=$("44"+f);u[\'g\'+f]=3H;11(9 k 1u u){7(u[k]==f){u.5F(k,1);5j}}7(1r){9 2Z=45(1r.5k("5m"));H.5l.3q(1r);7(2Z>0){5f(2Z)}}}c 31(f,3m){9 8=$(\'3l\'+f);7(8){7(8.z!=\'\'){7(8.h.v==\'12\'){8.h.v=\'C\'}p{8.h.v=\'12\'}}p{X("1j.Z?1a=31&3m="+3m,c(D){46(f,D)})}}}c 46(f,D){19=0;22();9 8=$(\'3l\'+f);7(8){8.h.v=\'12\';8.z=D}}c 1s(){19=0;22()}c 4b(j){7(2v==0||2v==2)l;9 j=j?j:3Z();7(1Q u[\'g\'+j]==\'5e\'){7(u[\'g\'+j][\'1J\']==0)l}9 q=$("Q"+j);7(!q)l;7(19==0){9 1R=q.B.O(/(^\\s+)|\\s+$/g,"").O(/\\^\\^\\^|\\|\\|\\|/g,"");7(1R.L>0){1R=1R.O(/\\?/g,\'%3F\').O(/&/g,\'%26\').O(/\\+/g,\'%2B\').O(/\\r\\n|\\n|\\r/g,"<3T>");9 A="3M.Z?1a=4b&5b="+1R+"&5c="+1W+1P+24+"&5o="+1G+"&f="+j;X(A)}q.B=""}q.1e()}c 22(){7(19==1)l;I(2S);2S=T(\'2P()\',5y*4h)}c 2P(){7(19==1)l;X("3M.Z")}c 5A(){2D=$(\'2P\');4c=$(\'5D\');3b=$(\'5C\');2t=$(\'5x\');2r=$(\'5w\');2q=$(\'5r\')}c 4i(D){19=0;22();7(D===0){21(0);l}21(1);9 17,3e=0,N=\'\',Y,f,3n,K,x,1r;9 M=D;M=M.2b(\'||||||\');2K=M[0];17=M[1];7(17==2){21(2);l}p 7(!17||17.L<18){l}7(M[2]){N=M[2]}17=17.2b(\'^^^\');11(9 i=0;i<17.L;i++){Y=17[i].2b(\'|||\');7(!Y[1])1i;3n=Y[4];f=Y[0];7(3n==1){3e+=1;K=$(\'g\'+f);7(!K){K=H.1t("5v");K.3h("j","g"+f);x=H.1t("1M");x.z=\'<a J="V:;" 16="S" W="3W(\'+f+\', \\\'\'+1n+f+\'\\\');l F;" 1l="打开对话窗口">\'+1n+f+\'</a> (<G j="3f\'+f+\'">0</G>)\';x.t=\'5h\';K.1w(x);x=H.1t("1M");x.3h("j","39"+f);x.z=2w();K.1w(x);x=H.1t("1M");x.z=\'<a J="V:;" 16="S" W="31(\'+f+\', \\\'\'+Y[1]+\'\\\');l F;" 1l="查看5u归属地">\'+Y[1]+\'</a><3T><G j="3l\'+f+\'"></G>\';K.1w(x);x=H.1t("1M");x.z=Y[2]+\' (\'+(Y[3]==1?\'<G y=5s>中文</G>\':\'<G y=27>5q</G>\')+\')\';K.1w(x);x=H.1t("1M");x.z=2M(Y[6],50);K.1w(x);x=H.1t("1M");x.3h("j","1Z"+f);7(Y[5]==1){x.z=\'<a J="V:;" y="27" 16="S" W="2e(\'+f+\');l F;">\'+3R+\'</a>\'}p{x.z=\'<a J="V:;" 16="S" W="1Y(\'+f+\');l F;">\'+1Z+\'</a>\'}x.z=x.z+\'&R;&R;|&R;&R;<a J="V:;" 16="S" W="23(\'+f+\');l F;">踢出</a>\';K.1w(x);2D.58(K,2D.5g[0]);3W(f,1n+f);N=f+\'|||0|||\'+5L+\'|||1|||1N|||0^^^\'+(N.L>18?N.O(/\\r\\n|\\n|\\r/g,\'\'):\'\');3X(f)}p 7(1O(f,u)&&u[\'g\'+f][\'1J\']==0){u[\'g\'+f][\'1J\']=1;9 1L=$("39"+f);7(1L)1L.z=2w();N=f+\'|||0|||\'+1n+f+61+\'|||1|||1N|||0^^^\'+(N.L>18?N.O(/\\r\\n|\\n|\\r/g,\'\'):\'\')}}p{7(!1O(f,u)||u[\'g\'+f][\'1J\']==0)1i;u[\'g\'+f][\'1J\']=0;9 1L=$("39"+f);7(1L)1L.z=\'<G y=27>已离线</G>\';1r=$("44"+f);7(1r){N=(N.L>18?N.O(/\\r\\n|\\n|\\r/g,\'\'):\'\')+f+\'|||0|||\'+1n+f+5N+\'|||0|||1N|||0^^^\'}}}7(3e==0){3b.h.v=\'12\'}p{3b.h.v=\'C\'}7(N.L>18){2x(N)}}c 2x(D){9 1q,1I,M,15,f,25,69,E,2a,2l,2m,28,14,h;9 3d=D.2b(\'^^^\');9 2J=3Z();9 2d=S;11(9 i=0;i<3d.L;i++){15=3d[i].2b(\'|||\');7(15[2]){f=15[0];1I=$("3f"+f);7(f!=2J&&1I){1I.z=45(1I.z)+1;1I.h.5W=\'14:27;38-3P:2c;\'}1q=$("62"+f);7(!1q)1i;25="<G y=25>"+2w()+"</G>";2a=15[1];2l=3s(15[2]);2m=15[3];28=15[4];14=15[5];h=\'\';7(14!=0)h="14:#"+14+";";7(28.37(/1\\d\\d/i))h+="38-3P:2c;";7(28.37(/\\3O\\d/i))h+="38-h:2j;";7(28.37(/\\d\\3O/i))h+="3i-56:2f;";7(2m==2){E="<G h=\\""+h+"\\">"+2l+"</G>"}p{E=2l}7(2a==0){7(2m==0){M=\'<m y="E e"><m y="2g 5B"><m y="4k"></m><m y="2i">\'+E+\'</m></m></m>\'}p{M=\'<m y="E i"><m y="2g 5t"><m y="4k"></m><m y="2i">\'+E+\'</m></m></m>\'}}p 7(2a==1){M=\'<m y="E o"><m y="4a"></m><m y="2g 5p"><m y="2i">\'+E+\'</m></m><m y="49">\'+25+\'</m></m>\';2d=F}p 7(2a==2){M=\'<m y="E g"><m y="4a"></m><m y="2g 5z"><m y="2i">\'+E+\'</m></m><m y="49">\'+25+\'</m></m>\'}1q.z=1q.z+M+\'<m y="5n"></m>\';1q.5d=1q.5a}}7(1F==1&&2d){4c.z=4e}7(2d)4d();2X.1e();29(2J)}c 3s(D){D=D.O(/((J=\\"|\\\')?(((6a?|68):\\/\\/)|3B\\.)([\\w\\-]+\\.)+[\\w\\.\\/=\\?%\\-&~\\\':+!#]*)/3z,c($1){l 2M($1)});D=D.O(/([\\-\\.\\w]+@[\\.\\-\\w]+(\\.\\w+)+)/3z,\'<a J="5I:$1" 2Q="4g">$1</a>\');D=D.O(/\\[:(\\d*):\\]/g,\'<5S 5M="\'+5H+\'5G/$1.57">\');l D}c 2M(A,2s){7(A.1h(0,5).3r()==\'J=\')l A;7(!2s)2s=60;9 2Y=\'<a J="\'+(A.1h(0,4).3r()==\'3B.\'?\'4W://\'+A:A)+\'" 2Q="4g" 1l="\'+A+\'">\';7(A.L>2s){A=A.1h(0,30)+\' ... \'+A.1h(A.L-18)}2Y+=A+\'</a>\';l 2Y}',62,384,'|||||||if|obj|var|||function|||gid||style||id||return|div|||else|eMessage|||className|guest|display||cell|class|innerHTML|url|value|none|data|msg|false|span|document|clearTimeout|href|row|length|newdata|allmsgs|replace|delay|message_|nbsp|true|setTimeout|eMsgs|javascript|onclick|ajax|aguest|php||for|block|selection|color|aline|hidefocus|allguests||lock|act|code|onmouseout|eTools_msg|focus|eColors|eTools_color|substr|continue|support|ttttt|title|eSmilies|guestname|ttt|tt|eHistory|gwin|donothing|createElement|in|eTools_smile|appendChild|minutes|seconds|flashtitle_step|sel|mstyle|tstyle|status|loading|allow_sound|ajaxC|tool|eNews|online|selectionStart|eLogin|td|000|in_array|ajaxI|typeof|ajaxLine|setbusy|method|hours_display|on|ajaxB|hours|banned|ban|eventobj|setStatus|waiting|kickout|ajaxU|time||red|biu|setFocus|stype|split|bold|do_flashTitle|unbanned|underline|msg_b|callback|msg_i|italic|mins_display|content|ctype|off|addZeros|date|eStatus_err2|eStatus_err|limit|eStatus_ok|sec_display|sys_status|getLocalTime|output_win|isUndefined|tools_color_on|needle||200|eWelive|oldClassName|createRange|evt|func|onmouseover|lastid|ajax_last|msgId|getURL|300|unsetbusy|welive|target|me|response_tout|tools_msg_off|280|setItalicStyle|tools_color_|window|urllink|currentNo||iplocation|setBoldStyle|tools_bold_|haystack|tools_sound_|setSoundStyle|match|font|login|tools_underline_|eNoguest|tools_italic_|lines|onlines|new|setUnderlineStyle|setAttribute|text|len|tttt|ip_|ip|isonline|format|pagetitle|removeChild|toLowerCase|format_output|smilies_|event|colors_|zIndex|fontStyle|arguments|ig|textDecoration|www|normal|tools_smile_off|tools_||yy|null|fontWeight|xx|updating|px|swaiting|moveStart|d1|weight|Obj|unban|character|br|this|clearInterval|openwin|InitMyWin|variable|get_lastopen|opn|msgobj|string|selectionEnd|win|parseInt|showlocation|msgs_div|newClassName|msg_t|pip|sending|eSounder|flashTitle|sound|tools_color_off|_blank|1000|welive_output|addEventListener|ico|tools_msg_|attachEvent|timer_start|displaytime|insertMsgs|chClass|290|100|msgs_line_hover|soundoff|getSeconds|getMinutes|getHours|_attachEvent|timer|_hover|chClassname|Date|stopFlashTitle|number|undefined|getElementById|GetObjByE|all|setInterval|srcElement|chSoundTitle|soundon|clientX|caller|callee|clientY|tools_msg_hover|340|top|showMsgs|insertSmilies|http|tools_color_hover|showColors|insertColors||showSmilies|tools_smile_hover|tools_smile_|left|POST|decoration|gif|insertBefore||scrollHeight|ajaxline|ajaxbiu|scrollTop|object|sort_min|childNodes|first|unbaninfo|break|getAttribute|body|Minno|clear|ajaxcolor|o_bg|English|status_err2|green|i_bg|IP|tr|status_err|status_ok|refresh_time|g_bg|initObj|e_bg|noguest|sounder|baninfo|splice|smilies|t_url|mailto|ResetInput|indexOf|newguest|src|er_goffline|tools_underline_on|tools_italic_on|tools_sound_off|toggleTools|img|_|ajaxpending|jx|cssText|offline|setOnline|FF3300||reonline|history_|setOffline|update|onSuccess|bind|onError|ftp|sender|https|tools_bold_on'.split('|'),0,{}))
+function $(id) {
+    return typeof id == "string" ? document.getElementById(id) : id
+}
+function isUndefined(variable) {
+    return typeof variable == 'undefined' ? true : false
+}
+function in_array(needle, haystack) {
+    if (typeof needle == 'string' || typeof needle == 'number') {
+        for (var i in haystack) {
+            if (haystack[i] == needle) {
+                return true
+            }
+        }
+    }
+    return false
+}
+function GetObjByE(e) {
+    if (isUndefined(e)) e = window.event;
+    var Obj = document.all ? e.srcElement : e.target;
+    return Obj
+}
+function flashTitle() {
+    clearInterval(tttt);
+    flashtitle_step = 1;
+    tttt = setInterval(function() {
+        if (flashtitle_step == 1) {
+            document.title = '【新消息】' + pagetitle;
+            flashtitle_step = 2
+        } else {
+            document.title = '【　　　】' + pagetitle;
+            flashtitle_step = 1
+        }
+    }, 200)
+}
+function stopFlashTitle() {
+    if (flashtitle_step != 0) {
+        flashtitle_step = 0;
+        clearInterval(tttt);
+        document.title = pagetitle
+    }
+}
+function getLocalTime() {
+    var date = new Date();
+
+    function addZeros(value, len) {
+        var i;
+        value = "" + value;
+        if (value.length < len) {
+            for (i = 0; i < (len - value.length); i++) value = "0" + value
+        }
+        return value
+    }
+    return addZeros(date.getHours(), 2) + ':' + addZeros(date.getMinutes(), 2) + ':' + addZeros(date.getSeconds(), 2)
+}
+function _attachEvent(obj, evt, func, eventobj) {
+    eventobj = !eventobj ? obj : eventobj;
+    if (obj.addEventListener) {
+        obj.addEventListener(evt, func, false)
+    } else if (eventobj.attachEvent) {
+        obj.attachEvent('on' + evt, func)
+    }
+}
+function timer_start() {
+    if (seconds >= 59) {
+        seconds = 0;
+        minutes += 1
+    } else {
+        seconds += 1
+    }
+    if (minutes >= 60) {
+        minutes = 0;
+        hours += 1
+    }
+    displaytime();
+    setTimeout('timer_start()', 1000)
+}
+function displaytime() {
+    var sec_display, mins_display, hours_display;
+    if (seconds < 10) {
+        sec_display = "0" + seconds
+    } else {
+        sec_display = seconds
+    }
+    if (minutes < 10) {
+        mins_display = "0" + minutes
+    } else {
+        mins_display = minutes
+    }
+    if (hours < 10) {
+        if (hours > 0) {
+            hours_display = "0" + hours + ":"
+        } else {
+            hours_display = ""
+        }
+    } else {
+        hours_display = hours + ":"
+    }
+    $("timer").innerHTML = hours_display + mins_display + ":" + sec_display
+}
+function chClassname(obj, newClassName) {
+    var oldClassName = obj.className;
+    obj.className = 'tools_' + newClassName + '_hover';
+    obj.onmouseout = function() {
+        this.className = oldClassName
+    }
+}
+function chSoundTitle(obj) {
+    if (allow_sound == 1) {
+        obj.title = soundoff
+    } else {
+        obj.title = soundon
+    }
+}
+function setFocus(id) {
+    var obj = $("message_" + id);
+    if (obj) obj.focus()
+}
+function showColors(id, delay) {
+    clearTimeout(tt);
+    setFocus(id);
+    var eTools_color = $("tools_color_" + id);
+    if (!eTools_color) return;
+    var eSmilies = $("smilies_" + id);
+    var eColors = $("colors_" + id);
+    eTools_color.className = 'tools_color_hover';
+    tt = setTimeout(function() {
+        eSmilies.style.display = 'none';
+        eColors.style.display = 'block';
+        eColors.onmouseover = function() {
+            clearTimeout(tt)
+        };
+        eColors.onmouseout = function() {
+            clearTimeout(tt);
+            tt = setTimeout(function() {
+                eColors.style.display = 'none';
+                if (ajaxC == "0") {
+                    eTools_color.className = 'tools_color_off'
+                } else {
+                    eTools_color.className = 'tools_color_on'
+                }
+            }, 200)
+        }
+    }, (delay || delay == 0) ? delay : 300);
+    eTools_color.onmouseout = function() {
+        clearTimeout(tt);
+        tt = setTimeout(function() {
+            eColors.style.display = 'none';
+            if (ajaxC == "0") {
+                eTools_color.className = 'tools_color_off'
+            } else {
+                eTools_color.className = 'tools_color_on'
+            }
+        }, 280)
+    }
+}
+function insertColors(id, code) {
+    var me = $("message_" + id);
+    if (!me) return;
+    ajaxC = code;
+    me.focus();
+    for (var k in guest) {
+        var obj = $('tools_color_' + guest[k]);
+        var eMessage = $("message_" + guest[k]);
+        if (!obj || !eMessage) continue;
+        obj.className = 'tools_color_on';
+        eMessage.style.color = "#" + code
+    }
+}
+function showSmilies(id, delay) {
+    clearTimeout(ttt);
+    setFocus(id);
+    var eTools_smile = $("tools_smile_" + id);
+    if (!eTools_smile) return;
+    var eSmilies = $("smilies_" + id);
+    var eColors = $("colors_" + id);
+    eTools_smile.className = 'tools_smile_hover';
+    ttt = setTimeout(function() {
+        eColors.style.display = 'none';
+        eSmilies.style.display = 'block';
+        eSmilies.onmouseover = function() {
+            clearTimeout(ttt)
+        };
+        eSmilies.onmouseout = function() {
+            clearTimeout(ttt);
+            ttt = setTimeout(function() {
+                eSmilies.style.display = 'none';
+                eTools_smile.className = 'tools_smile_off'
+            }, 200)
+        }
+    }, (delay || delay == 0) ? delay : 300);
+    eTools_smile.onmouseout = function() {
+        clearTimeout(ttt);
+        ttt = setTimeout(function() {
+            eSmilies.style.display = 'none';
+            eTools_smile.className = 'tools_smile_off'
+        }, 280)
+    }
+}
+function insertSmilies(id, code) {
+    var obj = $("message_" + id);
+    if (!obj) return;
+    var selection = document.selection;
+    obj.focus();
+    code += ' ';
+    if (!isUndefined(obj.selectionStart)) {
+        var opn = obj.selectionStart + 0;
+        obj.value = obj.value.substr(0, obj.selectionStart) + code + obj.value.substr(obj.selectionEnd)
+    } else if (selection && selection.createRange) {
+        var sel = selection.createRange();
+        sel.text = code;
+        sel.moveStart('character', -code.length)
+    } else {
+        obj.value += code
+    }
+}
+function showMsgs(id, delay) {
+    clearTimeout(ttttt);
+    setFocus(id);
+    var eTools_msg = $("tools_msg_" + id);
+    if (!eTools_msg) return;
+    msgId = id;
+    var eMsgs = $("msgs_div");
+    var e = window.event || arguments.callee.caller.arguments[0];
+    var xx = e.clientX;
+    var yy = e.clientY;
+    eTools_msg.className = 'tools_msg_hover';
+    ttttt = setTimeout(function() {
+        eMsgs.style.top = yy - 340 + 'px';
+        eMsgs.style.left = xx - 290 + 'px';
+        eMsgs.style.zIndex = zIndex + 100;
+        eMsgs.style.display = 'block';
+        eMsgs.onmouseover = function() {
+            clearTimeout(ttttt)
+        };
+        eMsgs.onmouseout = function() {
+            clearTimeout(ttttt);
+            ttttt = setTimeout(function() {
+                eMsgs.style.display = 'none';
+                eTools_msg.className = 'tools_msg_off'
+            }, 200)
+        }
+    }, (delay || delay == 0) ? delay : 300);
+    eTools_msg.onmouseout = function() {
+        clearTimeout(ttttt);
+        ttttt = setTimeout(function() {
+            eMsgs.style.display = 'none';
+            eTools_msg.className = 'tools_msg_off'
+        }, 280)
+    }
+}
+function chClass(obj) {
+    var oldClassName = obj.className;
+    obj.className = 'msgs_line_hover';
+    obj.onmouseout = function() {
+        this.className = oldClassName
+    }
+}
+function insertMsgs(msgobj) {
+    var obj = $("message_" + msgId);
+    if (!obj) return;
+    var msg = msgobj.innerHTML;
+    if (msg == '') return;
+    var selection = document.selection;
+    obj.focus();
+    if (!isUndefined(obj.selectionStart)) {
+        var opn = obj.selectionStart + 0;
+        obj.value = obj.value.substr(0, obj.selectionStart) + msg + obj.value.substr(obj.selectionEnd)
+    } else if (selection && selection.createRange) {
+        var sel = selection.createRange();
+        sel.text = msg;
+        sel.moveStart('character', -msg.length)
+    } else {
+        obj.value += msg
+    }
+    clearTimeout(ttttt);
+    var eMsgs = $("msgs_div");
+    eMsgs.style.display = 'none';
+    var eTools_msg = $("tools_msg_" + msgId);
+    if (eTools_msg) eTools_msg.className = 'tools_msg_off'
+}
+function InitMyWin(id) {
+    var obj;
+    var eMessage = $("message_" + id);
+    if (allow_sound == 0) {
+        obj = $('tools_sound_' + id);
+        if (obj) obj.className = 'tools_sound_off'
+    }
+    if (ajaxC != '0') {
+        obj = $('tools_color_' + id);
+        if (obj) obj.className = 'tools_color_on';
+        if (eMessage) eMessage.style.color = "#" + ajaxC
+    }
+    if (ajaxB == '1') {
+        obj = $('tools_bold_' + id);
+        if (obj) obj.className = 'tools_bold_on';
+        if (eMessage) eMessage.style.fontWeight = 'bold'
+    }
+    if (ajaxI == '1') {
+        obj = $('tools_italic_' + id);
+        if (obj) obj.className = 'tools_italic_on';
+        if (eMessage) eMessage.style.fontStyle = 'italic'
+    }
+    if (ajaxU == '1') {
+        obj = $('tools_underline_' + id);
+        if (obj) obj.className = 'tools_underline_on';
+        if (eMessage) eMessage.style.textDecoration = 'underline'
+    }
+}
+function toggleTools(id, tool) {
+    var obj = $('tools_' + tool + '_' + id);
+    var eMessage = $("message_" + id);
+    if (!obj || !eMessage) return;
+    if (tool == 'sound') {
+        if (allow_sound == 1) {
+            allow_sound = 0;
+            setSoundStyle('off')
+        } else {
+            allow_sound = 1;
+            setSoundStyle('on')
+        }
+    } else if (tool == 'bold') {
+        if (ajaxB == '1') {
+            ajaxB = '0';
+            setBoldStyle('off', 'normal')
+        } else {
+            ajaxB = '1';
+            setBoldStyle('on', 'bold')
+        }
+    } else if (tool == 'italic') {
+        if (ajaxI == '1') {
+            ajaxI = '0';
+            setItalicStyle('off', 'normal')
+        } else {
+            ajaxI = '1';
+            setItalicStyle('on', 'italic')
+        }
+    } else if (tool == 'underline') {
+        if (ajaxU == '1') {
+            ajaxU = '0';
+            setUnderlineStyle('off', 'none')
+        } else {
+            ajaxU = '1';
+            setUnderlineStyle('on', 'underline')
+        }
+    }
+    obj.onmouseout = null;
+    eMessage.focus()
+}
+function ResetInput(id) {
+    var eMessage = $("message_" + id);
+    if (!eMessage) return;
+    eMessage.value = '';
+    eMessage.focus()
+}
+function setSoundStyle(style) {
+    for (var k in guest) {
+        var obj = $('tools_sound_' + guest[k]);
+        if (!obj) continue;
+        obj.className = 'tools_sound_' + style
+    }
+}
+function setBoldStyle(tstyle, mstyle) {
+    for (var k in guest) {
+        var obj = $('tools_bold_' + guest[k]);
+        var eMessage = $("message_" + guest[k]);
+        if (!obj || !eMessage) continue;
+        obj.className = 'tools_bold_' + tstyle;
+        eMessage.style.fontWeight = mstyle
+    }
+}
+function setItalicStyle(tstyle, mstyle) {
+    for (var k in guest) {
+        var obj = $('tools_italic_' + guest[k]);
+        var eMessage = $("message_" + guest[k]);
+        if (!obj || !eMessage) continue;
+        obj.className = 'tools_italic_' + tstyle;
+        eMessage.style.fontStyle = mstyle
+    }
+}
+function setUnderlineStyle(tstyle, mstyle) {
+    for (var k in guest) {
+        var obj = $('tools_underline_' + guest[k]);
+        var eMessage = $("message_" + guest[k]);
+        if (!obj || !eMessage) continue;
+        obj.className = 'tools_underline_' + tstyle;
+        eMessage.style.textDecoration = mstyle
+    }
+}
+function setStatus(status) {
+    if (sys_status == status) return;
+    sys_status = status;
+    if (status == 0) {
+        eStatus_ok.style.display = "none";
+        eStatus_err.style.display = "block";
+        eStatus_err2.style.display = "none"
+    } else if (status == 1) {
+        eStatus_ok.style.display = "block";
+        eStatus_err.style.display = "none";
+        eStatus_err2.style.display = "none"
+    } else {
+        eStatus_ok.style.display = "none";
+        eStatus_err.style.display = "none";
+        eStatus_err2.style.display = "block"
+    }
+}
+function ajax(url, callback, updating, loading, format, method) {
+    
+    clearTimeout(response_tout);
+    lock = 1;
+    if (!method) method = "POST";
+    if (!loading) loading = "loading";
+    if (!callback) callback = welive_output;
+    url += (url.indexOf("?") + 1) ? "&" : "?";
+    url += "ajax_last=" + ajax_last + "&" + ajaxpending;
+    jx.bind({
+        "url": url,
+        "onSuccess": callback,
+        "onError": function(status) {
+            setStatus(0);
+            lock = 0;
+            waiting()
+        },
+        "format": format,
+        "method": method,
+        "update": updating,
+        "loading": loading
+    });
+    return false
+}
+function setOffline() {
+    ajax("support.php?act=offline", donothing)
+}
+function setOnline() {
+    lock = 0;
+    ajax("support.php?act=online")
+}
+function setbusy() {
+    ajax("support.php?act=setbusy", donothing);
+    var obj = $('setbusy');
+    if (obj) obj.innerHTML = '<a href="javascript:;" onclick="unsetbusy();return false;"><b><span style="color:#FF3300;">解除挂起 ！！！</span></b></a>'
+}
+function unsetbusy() {
+    ajax("support.php?act=unsetbusy", donothing);
+    var obj = $('setbusy');
+    if (obj) obj.innerHTML = '<a href="javascript:;" onclick="setbusy();return false;"><b>挂起</b></a> '
+}
+function banned(gid) {
+    ajax("support.php?act=banned&gid=" + gid, donothing);
+    var obj = $('ban' + gid);
+    if (obj) obj.innerHTML = '<a href="javascript:;" class="red" hidefocus="true" onclick="unbanned(' + gid + ');return false;">' + unban + '</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:;" hidefocus="true" onclick="kickout(' + gid + ');return false;">踢出</a>';
+    if (in_array(gid, guest)) {
+        guest['g' + gid]['banned'] = 1;
+        output_win(gid + '|||0|||' + guestname + gid + baninfo + '|||0|||000|||0^^^')
+    }
+}
+function unbanned(gid) {
+    ajax("support.php?act=unbanned&gid=" + gid, donothing);
+    var obj = $('ban' + gid);
+    if (obj) obj.innerHTML = '<a href="javascript:;" hidefocus="true" onclick="banned(' + gid + ');return false;">' + ban + '</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:;" hidefocus="true" onclick="kickout(' + gid + ');return false;">踢出</a>';
+    if (in_array(gid, guest)) {
+        output_win(gid + '|||0|||' + guestname + gid + unbaninfo + '|||1|||000|||0^^^')
+    }
+}
+function kickout(gid) {
+    ajax("support.php?act=kickout&gid=" + gid, donothing);
+    var row = $('g' + gid);
+    if (row) eWelive.removeChild(row);
+    gwin = $("win" + gid);
+    guest['g' + gid] = null;
+    for (var k in guest) {
+        if (guest[k] == gid) {
+            guest.splice(k, 1);
+            break
+        }
+    }
+    if (gwin) {
+        var currentNo = parseInt(gwin.getAttribute("Minno"));
+        document.body.removeChild(gwin);
+        if (currentNo > 0) {
+            sort_min(currentNo)
+        }
+    }
+}
+function iplocation(gid, ip) {
+    var obj = $('ip_' + gid);
+    if (obj) {
+        if (obj.innerHTML != '') {
+            if (obj.style.display == 'block') {
+                obj.style.display = 'none'
+            } else {
+                obj.style.display = 'block'
+            }
+        } else {
+            ajax("support.php?act=iplocation&ip=" + ip, function(data) {
+                showlocation(gid, data)
+            })
+        }
+    }
+}
+function showlocation(gid, data) {
+    lock = 0;
+    waiting();
+    var obj = $('ip_' + gid);
+    if (obj) {
+        obj.style.display = 'block';
+        obj.innerHTML = data
+    }
+}
+function donothing() {
+    lock = 0;
+    waiting()
+}
+function sending(id) {
+    if (sys_status == 0 || sys_status == 2) return;
+    var id = id ? id : get_lastopen();
+    if (typeof guest['g' + id] == 'object') {
+        if (guest['g' + id]['online'] == 0) return
+    }
+    var eMessage = $("message_" + id);
+    if (!eMessage) return;
+    if (lock == 0) {
+        var ajaxLine = eMessage.value.replace(/(^\s+)|\s+$/g, "").replace(/\^\^\^|\|\|\|/g, "");
+        if (ajaxLine.length > 0) {
+            ajaxLine = ajaxLine.replace(/\?/g, '%3F').replace(/&/g, '%26').replace(/\+/g, '%2B').replace(/\r\n|\n|\r/g, "<br>");
+            var url = "swaiting.php?act=sending&ajaxline=" + ajaxLine + "&ajaxbiu=" + ajaxB + ajaxI + ajaxU + "&ajaxcolor=" + ajaxC + "&gid=" + id;
+            ajax(url)
+        }
+        eMessage.value = ""
+    }
+    eMessage.focus()
+}
+function waiting() {
+    if (lock == 1) return;
+    clearTimeout(response_tout);
+    response_tout = setTimeout('welive()', refresh_time * 1000)
+}
+function welive() {
+    if (lock == 1) return;
+    ajax("swaiting.php")
+}
+function initObj() {
+    eWelive = $('welive');
+    eSounder = $('sounder');
+    eNoguest = $('noguest');
+    eStatus_ok = $('status_ok');
+    eStatus_err = $('status_err');
+    eStatus_err2 = $('status_err2')
+}
+function welive_output(data) {
+    lock = 0;
+    waiting();
+    if (data === 0) {
+        setStatus(0);
+        return
+    }
+    setStatus(1);
+    var allguests, onlines = 0,
+        allmsgs = '',
+        aguest, gid, isonline, row, cell, gwin;
+    var newdata = data;
+    newdata = newdata.split('||||||');
+    ajax_last = newdata[0];
+    allguests = newdata[1];
+    if (allguests == 2) {
+        setStatus(2);
+        return
+    } else if (!allguests || allguests.length < 18) {
+        return
+    }
+    if (newdata[2]) {
+        allmsgs = newdata[2]
+    }
+    allguests = allguests.split('^^^');
+    for (var i = 0; i < allguests.length; i++) {
+        aguest = allguests[i].split('|||');
+        if (!aguest[1]) continue;
+        isonline = aguest[4];
+        gid = aguest[0];
+        if (isonline == 1) {
+            onlines += 1;
+            row = $('g' + gid);
+            if (!row) {
+                row = document.createElement("tr");
+                row.setAttribute("id", "g" + gid);
+                cell = document.createElement("td");
+                cell.innerHTML = '<a href="javascript:;" hidefocus="true" onclick="openwin(' + gid + ', \'' + guestname + gid + '\');return false;" title="打开对话窗口">' + guestname + gid + '</a> (<span id="new' + gid + '">0</span>)';
+                cell.className = 'first';
+                row.appendChild(cell);
+                cell = document.createElement("td");
+                cell.setAttribute("id", "login" + gid);
+                cell.innerHTML = getLocalTime();
+                row.appendChild(cell);
+                cell = document.createElement("td");
+                cell.innerHTML = '<a href="javascript:;" hidefocus="true" onclick="iplocation(' + gid + ', \'' + aguest[1] + '\');return false;" title="查看IP归属地">' + aguest[1] + '</a><br><span id="ip_' + gid + '"></span>';
+                row.appendChild(cell);
+                cell = document.createElement("td");
+                cell.innerHTML = aguest[2] + ' (' + (aguest[3] == 1 ? '<span class=green>中文</span>' : '<span class=red>English</span>') + ')';
+                row.appendChild(cell);
+                cell = document.createElement("td");
+                cell.innerHTML = getURL(aguest[6], 50);
+                row.appendChild(cell);
+                cell = document.createElement("td");
+                cell.setAttribute("id", "ban" + gid);
+                if (aguest[5] == 1) {
+                    cell.innerHTML = '<a href="javascript:;" class="red" hidefocus="true" onclick="unbanned(' + gid + ');return false;">' + unban + '</a>'
+                } else {
+                    cell.innerHTML = '<a href="javascript:;" hidefocus="true" onclick="banned(' + gid + ');return false;">' + ban + '</a>'
+                }
+                cell.innerHTML = cell.innerHTML + '&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:;" hidefocus="true" onclick="kickout(' + gid + ');return false;">踢出</a>';
+                row.appendChild(cell);
+                eWelive.insertBefore(row, eWelive.childNodes[0]);
+                openwin(gid, guestname + gid);
+                allmsgs = gid + '|||0|||' + newguest + '|||1|||000|||0^^^' + (allmsgs.length > 18 ? allmsgs.replace(/\r\n|\n|\r/g, '') : '');
+                InitMyWin(gid)
+            } else if (in_array(gid, guest) && guest['g' + gid]['online'] == 0) {
+                guest['g' + gid]['online'] = 1;
+                var eLogin = $("login" + gid);
+                if (eLogin) eLogin.innerHTML = getLocalTime();
+                allmsgs = gid + '|||0|||' + guestname + gid + reonline + '|||1|||000|||0^^^' + (allmsgs.length > 18 ? allmsgs.replace(/\r\n|\n|\r/g, '') : '')
+            }
+        } else {
+            if (!in_array(gid, guest) || guest['g' + gid]['online'] == 0) continue;
+            guest['g' + gid]['online'] = 0;
+            var eLogin = $("login" + gid);
+            if (eLogin) eLogin.innerHTML = '<span class=red>已离线</span>';
+            gwin = $("win" + gid);
+            if (gwin) {
+                allmsgs = (allmsgs.length > 18 ? allmsgs.replace(/\r\n|\n|\r/g, '') : '') + gid + '|||0|||' + guestname + gid + er_goffline + '|||0|||000|||0^^^'
+            }
+        }
+    }
+    if (onlines == 0) {
+        console.log(1);
+        eNoguest.style.display = 'block'
+    } else {
+        console.log(2);
+        eNoguest.style.display = 'none'
+    }
+    if (allmsgs.length > 18) {
+        output_win(allmsgs)
+    }
+}
+function output_win(data) {
+    var eHistory, eNews, newdata, aline, gid, time, sender, msg, stype, content, ctype, biu, color, style;
+    var lines = data.split('^^^');
+    var lastid = get_lastopen();
+    var do_flashTitle = true;
+    for (var i = 0; i < lines.length; i++) {
+        aline = lines[i].split('|||');
+        if (aline[2]) {
+            gid = aline[0];
+            eNews = $("new" + gid);
+            if (gid != lastid && eNews) {
+                eNews.innerHTML = parseInt(eNews.innerHTML) + 1;
+                eNews.style.cssText = 'color:red;font-weight:bold;'
+            }
+            eHistory = $("history_" + gid);
+            if (!eHistory) continue;
+            time = "<span class=time>" + getLocalTime() + "</span>";
+            stype = aline[1];
+            content = format_output(aline[2]);
+            ctype = aline[3];
+            biu = aline[4];
+            color = aline[5];
+            style = '';
+            if (color != 0) style = "color:#" + color + ";";
+            if (biu.match(/1\d\d/i)) style += "font-weight:bold;";
+            if (biu.match(/\d1\d/i)) style += "font-style:italic;";
+            if (biu.match(/\d\d1/i)) style += "text-decoration:underline;";
+            if (ctype == 2) {
+                msg = "<span style=\"" + style + "\">" + content + "</span>"
+            } else {
+                msg = content
+            }
+            if (stype == 0) {
+                if (ctype == 0) {
+                    newdata = '<div class="msg e"><div class="msg_b e_bg"><div class="ico"></div><div class="msg_i">' + msg + '</div></div></div>'
+                } else {
+                    newdata = '<div class="msg i"><div class="msg_b i_bg"><div class="ico"></div><div class="msg_i">' + msg + '</div></div></div>'
+                }
+            } else if (stype == 1) {
+                newdata = '<div class="msg o"><div class="pip"></div><div class="msg_b o_bg"><div class="msg_i">' + msg + '</div></div><div class="msg_t">' + time + '</div></div>';
+                do_flashTitle = false
+            } else if (stype == 2) {
+                newdata = '<div class="msg g"><div class="pip"></div><div class="msg_b g_bg"><div class="msg_i">' + msg + '</div></div><div class="msg_t">' + time + '</div></div>'
+            }
+            eHistory.innerHTML = eHistory.innerHTML + newdata + '<div class="clear"></div>';
+            eHistory.scrollTop = eHistory.scrollHeight
+        }
+    }
+    if (allow_sound == 1 && do_flashTitle) {
+        eSounder.innerHTML = sound
+    }
+    if (do_flashTitle) flashTitle();
+    window.focus();
+    setFocus(lastid)
+}
+function format_output(data) {
+    data = data.replace(/((href=\"|\')?(((https?|ftp):\/\/)|www\.)([\w\-]+\.)+[\w\.\/=\?%\-&~\':+!#]*)/ig, function($1) {
+        return getURL($1)
+    });
+    data = data.replace(/([\-\.\w]+@[\.\-\w]+(\.\w+)+)/ig, '<a href="mailto:$1" target="_blank">$1</a>');
+    data = data.replace(/\[:(\d*):\]/g, '<img src="' + t_url + 'smilies/$1.gif">');
+    return data
+}
+function getURL(url, limit) {
+    if (url.substr(0, 5).toLowerCase() == 'href=') return url;
+    if (!limit) limit = 60;
+    var urllink = '<a href="' + (url.substr(0, 4).toLowerCase() == 'www.' ? 'http://' + url : url) + '" target="_blank" title="' + url + '">';
+    if (url.length > limit) {
+        url = url.substr(0, 30) + ' ... ' + url.substr(url.length - 18)
+    }
+    urllink += url + '</a>';
+    return urllink
+}

@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -53,17 +53,18 @@ if(!$uginfo['userid'] OR !$uginfo['activated'] OR !$uginfo['uisonline']){
 	$ajaxbiu = ForceIncomingString('ajaxbiu', '000');
 	$ajaxcolor = ForceIncomingString('ajaxcolor', '0');
 
-	$DB->exe("INSERT INTO " . TABLE_PREFIX . "msg (fromid, toid, msg, biu, color, created, minitime, type) VALUES ('$gid', '$uid', '$ajaxline', '$ajaxbiu', '$ajaxcolor', '$realtime', '$minitime', 0)");
+
+	$DB->exe("INSERT INTO " . TABLE_PREFIX . "msg (fromid, userip, toid, msg, biu, color, created, minitime, type) VALUES ('$gid','".GetIP()."', '$uid', '$ajaxline', '$ajaxbiu', '$ajaxcolor', '$realtime', '$minitime', 0)");
 
 	$lines[] = WeLive(2, html($ajaxline), 2, $ajaxbiu, $ajaxcolor);
 }
-
+		
 if(!$uginfo['gisonline'] AND $uginfo['guestid']){ //客人如果不在线, 更新为在线状态
 	$DB->exe("UPDATE " . TABLE_PREFIX . "guest SET isonline = 1, created = '$realtime' WHERE guestid = '$gid'");
 }
 
 
-WeLiveSend($realtime + $minitime, $lines, $ajax_last, $DB->errno);
+WeLiveSend($realtime + $minitime, $lines, $ajax_last, $DB->errno);		//发送消息
 
 ?>
 

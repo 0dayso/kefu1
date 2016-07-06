@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -154,7 +154,7 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.or
 	<div id="guest_bottom">
 		<div class="sysinfo_div"></div>
 		<div id="loading"></div>
-		<div class="copyright" id="copyright">'.COPYRIGHT.'</div>
+		<div class="copyright" id="copyright">'.ssssss.'</div>
 	</div>
 </div>
 <style type="text/css">html,body{overflow:hidden}</style>

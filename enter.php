@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -33,8 +33,8 @@ if(!$uid OR !$code OR !$vvckey){
 
 	$user = $DB->getOne($sql);
 	//print_r(test);
-	print_r($gid);
-	print_r($user);
+	//print_r($gid);
+	//print_r($user);
 	if(!$user['userid'] OR $code !== COOKIE_KEY . $user['userid']){
 		$error = $lang['er_verify'];
 	}elseif(!$user['isonline']){
@@ -121,7 +121,7 @@ foreach($colors as $key => $value){
 
 
 $js_var = "pagetitle=\"".SITE_TITLE."\",newmsg=\"$lang[newmsg]\",soundon=\"$lang[soundon]\",soundoff=\"$lang[soundoff]\",er_kickout=\"$lang[er_kickout]\",er_useroffline=\"$lang[er_useroffline]\",er_banned=\"$lang[er_banned]\",er_autooffline=\"$lang[er_autooffline]\",doonline=\"$lang[doonline]\",reonline=\"$lang[reonline]\",unbanned=\"$lang[unbanned]\",sender_sys=\"$lang[system]\",guestname=\"$lang[isay]\",username=\"$username\", t_url=\"".TURL."\"";
-
+//print_r($js_var);
 //输出页面
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -174,7 +174,7 @@ $js_var = "pagetitle=\"".SITE_TITLE."\",newmsg=\"$lang[newmsg]\",soundon=\"$lang
 	<div id="guest_bottom">
 		<div class="sysinfo_div"><span id="status_ok" class="status_ok"><img src="<?php echo TURL?>images/status_ok.gif" align="top">&nbsp;&nbsp;<?php echo $lang['status_ok']?></span><span id="status_err" class="status_err"><img src="<?php echo TURL?>images/status_err.gif" align="top">&nbsp;&nbsp;<?php echo $lang['er_system']?></span><span id="status_err2" class="status_err"><img src="<?php echo TURL?>images/status_err.gif" align="top">&nbsp;&nbsp;<?php echo $lang['er_database']?></span></div>
 		<div id="loading"><img src="<?php echo TURL?>images/waitt.gif" align="top"></div>
-		<div class="copyright" id="copyright"><?php echo COPYRIGHT?></div>
+		<div class="copyright" id="copyright"><?php echo ssssss; ?></div>
 	</div>
 </div>
 <style type="text/css">html,body{overflow:hidden}</style>

@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -91,7 +91,7 @@ function WeLiveSend($realtime, $lines, $ajax_last, $error = 0) {
 	echo $info;
 }
 
-// #####################
+// #####################加密code
 
 function authcode($string, $operation = 'DECODE', $key = '', $expiry = 0) {
 

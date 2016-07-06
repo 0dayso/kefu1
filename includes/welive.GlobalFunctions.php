@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -83,7 +83,7 @@ function IsPass($pass){
    return preg_match("/^[[:alnum:]]+$/i", $pass);
 }
 
-// #####################
+// #####################随机数
 
 function PassGen($length = 8){
 	$str = 'abcdefghijkmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';

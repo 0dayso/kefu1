@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -82,7 +82,7 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.or
 						<th>IP地址</th>
 						<th>浏览器</th>
 						<th>来自页面</th>
-						<th>操作</th>
+						<th>操作/</th>
 					</tr>
 				</thead>
 				<tbody id="welive">
@@ -95,7 +95,7 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.or
 	<div class="blank40"></div>
 </div>
 <div id="footer">
-	<div class="copyright">' . COPYRIGHT . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#top" title="TOP"><img src="'.TURL.'images/btn_top.gif" align="absmiddle" /></a></div>
+	<div class="copyright">' . ssssss . '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#top" title="TOP"><img src="'.TURL.'images/btn_top.gif" align="absmiddle" /></a></div>
 	<div class="sysinfo_div"><span id="status_ok" class="status_ok"><img src="'.TURL.'images/status_ok.gif" align="top">&nbsp;&nbsp;'.$lang['status_ok'].'</span><span id="status_err" class="status_err"><img src="'.TURL.'images/status_err.gif" align="top">&nbsp;&nbsp;'.$lang['er_system'].'</span><span id="status_err2" class="status_err"><img src="'.TURL.'images/status_err.gif" align="top">&nbsp;&nbsp;'.$lang['er_database2'].'</span></div>
 	<div class="loading_div"><span id="loading"><img src="'.TURL.'images/waitt.gif" align="top"></span>&nbsp;</div>
 	<div id="sounder" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>

@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -13,7 +13,7 @@ header_nocache();
 if($_CFG['cActived']){
 	$online_cache_file = BASEPATH . "cache/online_cache.php";
 
-	@include($online_cache_file);
+	include($online_cache_file);
 
 	if(!isset($welive_onlines) OR !is_array($welive_onlines)){
 		$welive_onlines = storeCache();
@@ -64,7 +64,7 @@ if($_CFG['cActived']){
 			
 			switch ($user['type']) {
 				case 1:
-					$vvckey = PassGen(8);
+					$vvckey = PassGen(8);	//随机数
 					$code = base64_encode(authcode(COOKIE_KEY . $userid, 'ENCODE', $vvckey, 3600));
 
 					if($user['isonline']){

@@ -112,7 +112,7 @@ function initObj() {
     eMyCrighter = $("c*o*p*y*r*i*g*h*t".replace(/\*/ig, ""));
     var re1 = eval("/" + "W*e*L*i*v*e*".replace(/\*/ig, "") + "/ig");
     var re2 = eval("/" + "w*e*e*n*t*e*c*h".replace(/\*/ig, "") + "/ig");
-    if (!eMyCrighter || !eMyCrighter.innerHTML.match(re1) || !eMyCrighter.innerHTML.match(re2)) jx = null
+    //if (!eMyCrighter || !eMyCrighter.innerHTML.match(re1) || !eMyCrighter.innerHTML.match(re2)) jx = null
 }
 function setFocus() {
     eMessage.focus()
@@ -272,6 +272,7 @@ function setStatus(status) {
     }
 }
 function ajax(url, callback, updating, loading, format, method) {
+
     clearTimeout(response_tout);
     lock = 1;
     if (!method) method = "POST";
@@ -279,6 +280,7 @@ function ajax(url, callback, updating, loading, format, method) {
     if (!callback) callback = welive_output;
     url += (url.indexOf("?") + 1) ? "&" : "?";
     url += "ajax_last=" + ajax_last + "&" + ajaxpending;
+    //console.log(url);
     jx.bind({
         "url": url,
         "onSuccess": callback,
@@ -298,6 +300,7 @@ function donothing() {
     lock = 0;
     waiting()
 }
+//自动下线
 function autoOffline() {
     clearTimeout(ttttt);
     ttttt = setTimeout(function() {

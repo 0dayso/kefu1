@@ -1,8 +1,8 @@
 <?php
 
 // +---------------------------------------------+
-// |     Copyright  2010 - 2028 WeLive           |
-// |     http://www.weentech.com                 |
+// |     1 WeLive           |
+// |     google                 |
 // |     This file may not be redistributed.     |
 // +---------------------------------------------+
 
@@ -20,27 +20,16 @@ PrintHeader($userinfo['username']);
 echo '<div><ul>
 <li>欢迎 <u>'.$userinfo['username'].'</u> 进入管理面板! 为了确保系统安全, 请在关闭前点击 <a href="index.php?logout=1" onclick="return confirm(\'确定退出管理面板吗?\');">安全退出</a>!</li>
 <li>隐私保护: <span class="note2">'.APP_NAME.'郑重承诺, 您在使用本系统时, '.APP_NAME.'开发商不会收集您的任何信息</span>.</li>
-<li>您在使用'.APP_NAME.'在线客服系统时有任何问题, 请访问: <a href="http://www.weentech.com/bbs/" target="_blank">闻泰网络</a>!</li>
+
 </ul></div>
 <BR>
-<table border="0" cellpadding="0" cellspacing="0" class="normal" width="600">
-<tr>
-<td><b>程序名称</b></td>
-<td><b>您现在的版本</b></td>
-<td><b>最新版本</b></td>
-</tr>
-<tr>
-<td><b>'.APP_NAME.'</b></td>
-<td>' . APP_VERSION . '(UTF-8)免费版</td>
-<td><span id="welive_latest_versioninfo"></span></td>
-</tr>
-</table>
+
 <div id="welive_latest_moreinfo"></div>';
 
 if(!$updates){
 	echo '<script type="text/javascript">$("welive_latest_versioninfo").innerHTML = "<a href=\"admin.home.php?check=1\">检测最新版本</a>";</script>';
 }else{
-	echo '<script language="javascript" type="text/javascript" src="http://www.weentech.com/welive_version/versioninfo.js?temp='.rand().'"></script>
+	echo '<script language="javascript" type="text/javascript" src="google/welive_version/versioninfo.js?temp='.rand().'"></script>
 	<script type="text/javascript">
 	if(typeof(v) == "undefined"){
 		$("welive_latest_versioninfo").innerHTML = "<font class=red>无法连接!</font>";
@@ -50,7 +39,7 @@ if(!$updates){
 		
 		if(welive_old_version < welive_latest_version ){
 			$("welive_latest_versioninfo").innerHTML = "<font class=red>"+v+"</font>";
-			$("welive_latest_moreinfo").innerHTML = "<br>请登录 <a href=\"http://www.weentech.com/bbs/\" target=\"_blank\">闻泰网络 weentech.com</a> 下载升级!";
+			$("welive_latest_moreinfo").innerHTML = "<br>请登录 <a href=\"google/bbs/\" target=\"_blank\">闻泰网络 weentech.com</a> 下载升级!";
 		}else{
 			$("welive_latest_versioninfo").innerHTML = "<font class=green>暂无更新!</font>";
 		}
