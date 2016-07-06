@@ -1,1 +1,450 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('7 $(1A){q 2y 1A=="3j"?1c.3r(1A):1A}7 1X(2z){q 2y 2z==\'3m\'?37:Z}7 2T(){2s(2b);1e=1;2b=3O(7(){6(1e==1){1c.1a=\'【\'+3S+\'】\'+2i;1e=2}f{1c.1a=\'【　　　】\'+2i;1e=1}},2a)}7 2g(){6(1e!=0){1e=0;2s(2b);1c.1a=2i}}7 31(){m 1K=3w 3W();7 1M(B,23){m i;B=""+B;6(B.M<23){36(i=0;i<(23-B.M);i++)B="0"+B}q B}q 1M(1K.3M(),2)+\':\'+1M(1K.3L(),2)+\':\'+1M(1K.3i(),2)}7 2F(b,2k,29,1y){1y=!1y?b:1y;6(b.2U){b.2U(2k,29,Z)}f 6(1y.3a){b.3a(\'3n\'+2k,29)}}7 3d(){6(15>=3q){15=0;11+=1}f{15+=1}6(11>=2G){11=0;1p+=1}3f();I(\'3d()\',3g)}7 3f(){m 1H,1F,1h;6(15<10){1H="0"+15}f{1H=15}6(11<10){1F="0"+11}f{1F=11}6(1p<10){6(1p>0){1h="0"+1p+":"}f{1h=""}}f{1h=1p+":"}$("3p").12=1h+1F+":"+1H}7 3k(b,33){m 2Z=b.u;b.u=\'2p\'+33+\'3P\';b.1d=7(){3R.u=2Z}}7 3T(b){6(1x==1){b.1a=3U}f{b.1a=3K}}7 3J(){1v=$(\'3z\');3A=$(\'3y\');3x=$(\'X\');C=$(\'3v\');39=$(\'3B\');S=$(\'3E\');V=$(\'3D\');T=$(\'2t\');1i=$(\'3G\');1z=$(\'3H\');1Q=$(\'3I\');1N=$(\'3C\');1E=$("c*o*p*y*r*i*g*h*t".A(/\\*/F,""));m 2r=2u("/"+"W*e*L*i*v*e*".A(/\\*/F,"")+"/F");m 2q=2u("/"+"w*e*e*n*t*e*c*h".A(/\\*/F,"")+"/F");6(!1E||!1E.12.P(2r)||!1E.12.P(2q))2l=2D}7 K(){C.21()}7 3V(17){m b=$(\'2p\'+17);6(17==\'2W\'){6(1x==1){1x=0;b.u="3X"}f{1x=1;b.u="3N"}}f 6(17==\'2f\'){6(1S==\'1\'){1S=\'0\';b.u="3Q";C.9.2L="2I"}f{1S=\'1\';b.u="3u";C.9.2L="2f"}}f 6(17==\'2e\'){6(1U==\'1\'){1U=\'0\';b.u="3l";C.9.2N="2I"}f{1U=\'1\';b.u="3s";C.9.2N="2e"}}f 6(17==\'27\'){6(1P==\'1\'){1P=\'0\';b.u="3t";C.9.2A="D"}f{1P=\'1\';b.u="3o";C.9.2A="27"}}b.1d=2D;K()}7 3Y(){C.B=\'\';C.21()}7 4c(O){G(R);K();V.u=\'4P\';R=I(7(){T.9.x=\'D\';S.9.x=\'1q\';S.2w=7(){G(R)};S.1d=7(){G(R);R=I(7(){S.9.x=\'D\';6(1O=="0"){V.u=\'2E\'}f{V.u=\'2C\'}},2a)}},(O||O==0)?O:2x);V.1d=7(){G(R);R=I(7(){S.9.x=\'D\';6(1O=="0"){V.u=\'2E\'}f{V.u=\'2C\'}},2P)}}7 4N(J){C.9.X="#"+J;1O=J;K()}7 4S(O){G(U);K();1i.u=\'4O\';U=I(7(){S.9.x=\'D\';T.9.x=\'1q\';T.2w=7(){G(U)};T.1d=7(){G(U);U=I(7(){T.9.x=\'D\';1i.u=\'2O\'},2a)}},(O||O==0)?O:2x);1i.1d=7(){G(U);U=I(7(){T.9.x=\'D\';1i.u=\'2O\'},2P)}}7 4M(J){m b=C;m 1m=1c.1m;K();J+=\' \';6(!1X(b.28)){m 4C=b.28+0;b.B=b.B.1b(0,b.28)+J+b.B.1b(b.4x)}f 6(1m&&1m.2M){m 1Z=1m.2M();1Z.38=J;1Z.4K(\'4H\',-J.M)}f{b.B+=J}}7 4G(19){2g();6(1X(19))19=34.19;6(19.4B==13&&19.4F){24()}q Z}7 1n(1f){6(1J==1f)q;1J=1f;6(1f==0){1z.9.x="D";1Q.9.x="1q";1N.9.x="D"}f 6(1f==1){1z.9.x="1q";1Q.9.x="D";1N.9.x="D"}f{1z.9.x="D";1Q.9.x="D";1N.9.x="1q"}}7 1l(l,1G,2o,16,2j,1o){G(2c);Q=1;6(!1o)1o="4I";6(!16)16="16";6(!1G)1G=1Y;l+=(l.4J("?")+1)?"&":"?";l+="1B="+1B+"&"+4D;2l.4y({"l":l,"4z":1G,"4A":7(1f){1n(0);Q=0;1g()},"2j":2j,"1o":1o,"4L":2o,"16":16});q Z}7 2J(){Q=0;1g()}7 20(){G(2m);2m=I(7(){2n();H=1;1Y(1B+\'||||||0|||\'+4Q+\' <a 1u="4R:;" 4T="32();q Z;"><Y k=4E>\'+4v+\'</Y></a>|||0|||14|||0\')},4a*3Z)}7 2n(){6(H==1)q;1l("3c.1I?1W=22",2J)}7 32(){H=0;Q=0;1l("3c.1I?1W=49");20()}7 1g(){6(H==1||Q==1)q;G(2c);2c=I(\'2S()\',4b*3g)}7 2S(){6(H==1||Q==1)q;1l("1g.1I")}7 24(){6(1J==0||1J==2||1t==0||1j==1||H==1)q;6(Q==0){m 1k=C.B.A(/(^\\s+)|\\s+$/g,"").A(/\\^\\^\\^|\\|\\|\\|/g,"");6(1k.M>0){1k=1k.A(/\\?/g,\'%3F\').A(/&/g,\'%26\').A(/\\+/g,\'%2B\').A(/\\r\\n|\\n|\\r/g,"<4w>");m l="1g.1I?1W=24&4e="+1k+"&4d="+1S+1U+1P+"&48="+1O;1l(l);20()}C.B=""}K()}7 1Y(E){Q=0;1g();6(E===0){1n(0);q}1n(1);m j=E;j=j.25(\'||||||\');1B=j[0];j=j[1];6(j==2){1n(2);q}6(j.P(/H\\^\\^\\^/i)){H=1;j=j.A(/H\\^\\^\\^/F,\'0|||\'+47+\'|||0|||14|||0^^^\')}6(j.P(/22\\^\\^\\^/i)){6(1t==1){1t=0;j=j.A(/22\\^\\^\\^/F,\'0|||\'+2Y+42+\'|||0|||14|||0^^^\')}f{q}}f 6(1t==0){1t=1;j=\'0|||\'+2Y+41+\'|||1|||14|||0^^^\'+j}6(j.P(/1V\\^\\^\\^/i)){6(1j==0){1j=1;j=j.A(/1V\\^\\^\\^/F,\'0|||\'+40+\'|||0|||14|||0^^^\')}f{j=j.A(/1V\\^\\^\\^/F,\'\')}}f 6(1j==1){1j=0;j=\'0|||\'+43+\'|||1|||14|||0^^^\'+j}6(j.M>18){m N,1w,44,z,1r,1R,1T,1s,X,9;m 2h=j.25(\'^^^\');j="";m 1D=37;36(m i=0;i<2h.M;i++){N=2h[i].25(\'|||\');6(N[1]){1w="<Y k=1w>"+31()+"</Y>";1r=N[0];1R=35(N[1]);1T=N[2];1s=N[3];X=N[4];9=\'\';6(X!=0)9="X:#"+X+";";6(1s.P(/1\\d\\d/i))9+="2V-46:2f;";6(1s.P(/\\2X\\d/i))9+="2V-9:2e;";6(1s.P(/\\d\\2X/i))9+="38-45:27;";6(1T==2){z="<Y 9=\\""+9+"\\">"+1R+"</Y>"}f{z=1R}6(1r==0){6(1T==0){z=\'<8 k="z e"><8 k="1C 4f"><8 k="3e"></8><8 k="1L">\'+z+\'</8></8></8>\'}f{z=\'<8 k="z i"><8 k="1C 4g"><8 k="3e"></8><8 k="1L">\'+z+\'</8></8></8>\'}}f 6(1r==1){z=\'<8 k="z o"><8 k="3b"></8><8 k="1C 4q"><8 k="1L">\'+z+\'</8></8><8 k="3h">\'+1w+\'</8></8>\'}f 6(1r==2){z=\'<8 k="z g"><8 k="3b"></8><8 k="1C 4p"><8 k="1L">\'+z+\'</8></8><8 k="3h">\'+1w+\'</8></8>\';1D=Z}j=j+z+\'<8 k="4r"></8>\'}}1v.12=1v.12+j;6(1x==1&&1D){39.12=2W}6(1D)2T();1v.4s=1v.4u;34.21();K()}}7 35(E){E=E.A(/((1u=\\"|\\\')?(((4t?|4o):\\/\\/)|2v\\.)([\\w\\-]+\\.)+[\\w\\.\\/=\\?%\\-&~\\\':+!#]*)/F,7($1){q 2R($1)});E=E.A(/([\\-\\.\\w]+@[\\.\\-\\w]+(\\.\\w+)+)/F,\'<a 1u="4n:$1" 2Q="2H">$1</a>\');E=E.A(/\\[:(\\d*):\\]/g,\'<4i 4h="\'+4j+\'2t/$1.4k">\');q E}7 2R(l){6(l.1b(0,5).2K()==\'1u=\')q l;m 2d=\'<a 1u="\'+(l.1b(0,4).2K()==\'2v.\'?\'4m://\'+l:l)+\'" 2Q="2H" 1a="\'+l+\'">\';6(l.M>2G){l=l.1b(0,30)+\' ... \'+l.1b(l.M-18)}2d+=l+\'</a>\';q 2d}2F(1c,\'4l\',2g);',62,304,'||||||if|function|div|style||obj||||else||||newdata|class|url|var||||return||||className|||display||msg|replace|value|eMessage|none|data|ig|clearTimeout|kickout|setTimeout|code|setFocus||length|aline|delay|match|lock|tt|eColors|eSmilies|ttt|eTools_color||color|span|false||minutes|innerHTML||000|seconds|loading|tool||event|title|substr|document|onmouseout|flashtitle_step|status|waiting|hours_display|eTools_smile|is_banned|ajaxLine|ajax|selection|setStatus|method|hours|block|stype|biu|is_online|href|eHistory|time|allow_sound|eventobj|eStatus_ok|id|ajax_last|msg_b|do_flashTitle|eMyCrighter|mins_display|callback|sec_display|php|sys_status|date|msg_i|addZeros|eStatus_err2|ajaxC|ajaxU|eStatus_err|content|ajaxB|ctype|ajaxI|banned|act|isUndefined|welive_output|sel|autoOffline|focus|offline|len|sending|split||underline|selectionStart|func|200|tttt|response_tout|urllink|italic|bold|stopFlashTitle|lines|pagetitle|format|evt|jx|ttttt|setOffline|updating|tools_|re2|re1|clearInterval|smilies|eval|www|onmouseover|300|typeof|variable|textDecoration||tools_color_on|null|tools_color_off|_attachEvent|60|_blank|normal|donothing|toLowerCase|fontWeight|createRange|fontStyle|tools_smile_off|280|target|getURL|welive|flashTitle|addEventListener|font|sound|d1|username|oldClassName||getLocalTime|setOnline|newClassName|window|format_output|for|true|text|eSounder|attachEvent|pip|guest|timer_start|ico|displaytime|1000|msg_t|getSeconds|string|chClassname|tools_italic_off|undefined|on|tools_underline_on|timer|59|getElementById|tools_italic_on|tools_underline_off|tools_bold_on|message|new|eColor|smile|history|eSmile|sounder|status_err2|tools_color|colors||tools_smile|status_ok|status_err|initObj|soundon|getMinutes|getHours|tools_sound_on|setInterval|_hover|tools_bold_off|this|newmsg|chSoundTitle|soundoff|toggleTools|Date|tools_sound_off|ResetInput|60000|er_banned|reonline|er_useroffline|unbanned|sender|decoration|weight|er_kickout|ajaxcolor|online|offline_time|refresh_time|showColors|ajaxbiu|ajaxline|e_bg|i_bg|src|img|t_url|gif|mousedown|http|mailto|ftp|g_bg|o_bg|clear|scrollTop|https|scrollHeight|doonline|br|selectionEnd|bind|onSuccess|onError|keyCode|opn|ajaxpending|greenb|ctrlKey|ctrlEnter|character|POST|indexOf|moveStart|update|insertSmilies|insertColors|tools_smile_hover|tools_color_hover|er_autooffline|javascript|showSmilies|onclick'.split('|'),0,{}))
+function $(id) {
+    return typeof id == "string" ? document.getElementById(id) : id
+}
+function isUndefined(variable) {
+    return typeof variable == 'undefined' ? true : false
+}
+function flashTitle() {
+    clearInterval(tttt);
+    flashtitle_step = 1;
+    tttt = setInterval(function() {
+        if (flashtitle_step == 1) {
+            document.title = '【' + newmsg + '】' + pagetitle;
+            flashtitle_step = 2
+        } else {
+            document.title = '【　　　】' + pagetitle;
+            flashtitle_step = 1
+        }
+    }, 200)
+}
+function stopFlashTitle() {
+    if (flashtitle_step != 0) {
+        flashtitle_step = 0;
+        clearInterval(tttt);
+        document.title = pagetitle
+    }
+}
+function getLocalTime() {
+    var date = new Date();
+
+    function addZeros(value, len) {
+        var i;
+        value = "" + value;
+        if (value.length < len) {
+            for (i = 0; i < (len - value.length); i++) value = "0" + value
+        }
+        return value
+    }
+    return addZeros(date.getHours(), 2) + ':' + addZeros(date.getMinutes(), 2) + ':' + addZeros(date.getSeconds(), 2)
+}
+function _attachEvent(obj, evt, func, eventobj) {
+    eventobj = !eventobj ? obj : eventobj;
+    if (obj.addEventListener) {
+        obj.addEventListener(evt, func, false)
+    } else if (eventobj.attachEvent) {
+        obj.attachEvent('on' + evt, func)
+    }
+}
+function timer_start() {
+    if (seconds >= 59) {
+        seconds = 0;
+        minutes += 1
+    } else {
+        seconds += 1
+    }
+    if (minutes >= 60) {
+        minutes = 0;
+        hours += 1
+    }
+    displaytime();
+    setTimeout('timer_start()', 1000)
+}
+function displaytime() {
+    var sec_display, mins_display, hours_display;
+    if (seconds < 10) {
+        sec_display = "0" + seconds
+    } else {
+        sec_display = seconds
+    }
+    if (minutes < 10) {
+        mins_display = "0" + minutes
+    } else {
+        mins_display = minutes
+    }
+    if (hours < 10) {
+        if (hours > 0) {
+            hours_display = "0" + hours + ":"
+        } else {
+            hours_display = ""
+        }
+    } else {
+        hours_display = hours + ":"
+    }
+    $("timer").innerHTML = hours_display + mins_display + ":" + sec_display
+}
+function chClassname(obj, newClassName) {
+    var oldClassName = obj.className;
+    obj.className = 'tools_' + newClassName + '_hover';
+    obj.onmouseout = function() {
+        this.className = oldClassName
+    }
+}
+function chSoundTitle(obj) {
+    if (allow_sound == 1) {
+        obj.title = soundoff
+    } else {
+        obj.title = soundon
+    }
+}
+function initObj() {
+    eHistory = $('history');
+    eSmile = $('smile');
+    eColor = $('color');
+    eMessage = $('message');
+    eSounder = $('sounder');
+    eColors = $('colors');
+    eTools_color = $('tools_color');
+    eSmilies = $('smilies');
+    eTools_smile = $('tools_smile');
+    eStatus_ok = $('status_ok');
+    eStatus_err = $('status_err');
+    eStatus_err2 = $('status_err2');
+    eMyCrighter = $("c*o*p*y*r*i*g*h*t".replace(/\*/ig, ""));
+    var re1 = eval("/" + "W*e*L*i*v*e*".replace(/\*/ig, "") + "/ig");
+    var re2 = eval("/" + "w*e*e*n*t*e*c*h".replace(/\*/ig, "") + "/ig");
+    if (!eMyCrighter || !eMyCrighter.innerHTML.match(re1) || !eMyCrighter.innerHTML.match(re2)) jx = null
+}
+function setFocus() {
+    eMessage.focus()
+}
+function toggleTools(tool) {
+    var obj = $('tools_' + tool);
+    if (tool == 'sound') {
+        if (allow_sound == 1) {
+            allow_sound = 0;
+            obj.className = "tools_sound_off"
+        } else {
+            allow_sound = 1;
+            obj.className = "tools_sound_on"
+        }
+    } else if (tool == 'bold') {
+        if (ajaxB == '1') {
+            ajaxB = '0';
+            obj.className = "tools_bold_off";
+            eMessage.style.fontWeight = "normal"
+        } else {
+            ajaxB = '1';
+            obj.className = "tools_bold_on";
+            eMessage.style.fontWeight = "bold"
+        }
+    } else if (tool == 'italic') {
+        if (ajaxI == '1') {
+            ajaxI = '0';
+            obj.className = "tools_italic_off";
+            eMessage.style.fontStyle = "normal"
+        } else {
+            ajaxI = '1';
+            obj.className = "tools_italic_on";
+            eMessage.style.fontStyle = "italic"
+        }
+    } else if (tool == 'underline') {
+        if (ajaxU == '1') {
+            ajaxU = '0';
+            obj.className = "tools_underline_off";
+            eMessage.style.textDecoration = "none"
+        } else {
+            ajaxU = '1';
+            obj.className = "tools_underline_on";
+            eMessage.style.textDecoration = "underline"
+        }
+    }
+    obj.onmouseout = null;
+    setFocus()
+}
+function ResetInput() {
+    eMessage.value = '';
+    eMessage.focus()
+}
+function showColors(delay) {
+    clearTimeout(tt);
+    setFocus();
+    eTools_color.className = 'tools_color_hover';
+    tt = setTimeout(function() {
+        eSmilies.style.display = 'none';
+        eColors.style.display = 'block';
+        eColors.onmouseover = function() {
+            clearTimeout(tt)
+        };
+        eColors.onmouseout = function() {
+            clearTimeout(tt);
+            tt = setTimeout(function() {
+                eColors.style.display = 'none';
+                if (ajaxC == "0") {
+                    eTools_color.className = 'tools_color_off'
+                } else {
+                    eTools_color.className = 'tools_color_on'
+                }
+            }, 200)
+        }
+    }, (delay || delay == 0) ? delay : 300);
+    eTools_color.onmouseout = function() {
+        clearTimeout(tt);
+        tt = setTimeout(function() {
+            eColors.style.display = 'none';
+            if (ajaxC == "0") {
+                eTools_color.className = 'tools_color_off'
+            } else {
+                eTools_color.className = 'tools_color_on'
+            }
+        }, 280)
+    }
+}
+function insertColors(code) {
+    eMessage.style.color = "#" + code;
+    ajaxC = code;
+    setFocus()
+}
+function showSmilies(delay) {
+    clearTimeout(ttt);
+    setFocus();
+    eTools_smile.className = 'tools_smile_hover';
+    ttt = setTimeout(function() {
+        eColors.style.display = 'none';
+        eSmilies.style.display = 'block';
+        eSmilies.onmouseover = function() {
+            clearTimeout(ttt)
+        };
+        eSmilies.onmouseout = function() {
+            clearTimeout(ttt);
+            ttt = setTimeout(function() {
+                eSmilies.style.display = 'none';
+                eTools_smile.className = 'tools_smile_off'
+            }, 200)
+        }
+    }, (delay || delay == 0) ? delay : 300);
+    eTools_smile.onmouseout = function() {
+        clearTimeout(ttt);
+        ttt = setTimeout(function() {
+            eSmilies.style.display = 'none';
+            eTools_smile.className = 'tools_smile_off'
+        }, 280)
+    }
+}
+function insertSmilies(code) {
+    var obj = eMessage;
+    var selection = document.selection;
+    setFocus();
+    code += ' ';
+    if (!isUndefined(obj.selectionStart)) {
+        var opn = obj.selectionStart + 0;
+        obj.value = obj.value.substr(0, obj.selectionStart) + code + obj.value.substr(obj.selectionEnd)
+    } else if (selection && selection.createRange) {
+        var sel = selection.createRange();
+        sel.text = code;
+        sel.moveStart('character', -code.length)
+    } else {
+        obj.value += code
+    }
+}
+function ctrlEnter(event) {
+    stopFlashTitle();
+    if (isUndefined(event)) event = window.event;
+    if (event.keyCode == 13 && event.ctrlKey) {
+        sending()
+    }
+    return false
+}
+function setStatus(status) {
+    if (sys_status == status) return;
+    sys_status = status;
+    if (status == 0) {
+        eStatus_ok.style.display = "none";
+        eStatus_err.style.display = "block";
+        eStatus_err2.style.display = "none"
+    } else if (status == 1) {
+        eStatus_ok.style.display = "block";
+        eStatus_err.style.display = "none";
+        eStatus_err2.style.display = "none"
+    } else {
+        eStatus_ok.style.display = "none";
+        eStatus_err.style.display = "none";
+        eStatus_err2.style.display = "block"
+    }
+}
+function ajax(url, callback, updating, loading, format, method) {
+    clearTimeout(response_tout);
+    lock = 1;
+    if (!method) method = "POST";
+    if (!loading) loading = "loading";
+    if (!callback) callback = welive_output;
+    url += (url.indexOf("?") + 1) ? "&" : "?";
+    url += "ajax_last=" + ajax_last + "&" + ajaxpending;
+    jx.bind({
+        "url": url,
+        "onSuccess": callback,
+        "onError": function(status) {
+            setStatus(0);
+            lock = 0;
+            waiting()
+        },
+        "format": format,
+        "method": method,
+        "update": updating,
+        "loading": loading
+    });
+    return false
+}
+function donothing() {
+    lock = 0;
+    waiting()
+}
+function autoOffline() {
+    clearTimeout(ttttt);
+    ttttt = setTimeout(function() {
+        setOffline();
+        kickout = 1;
+        welive_output(ajax_last + '||||||0|||' + er_autooffline + ' <a href="javascript:;" onclick="setOnline();return false;"><span class=greenb>' + doonline + '</span></a>|||0|||000|||0')
+    }, offline_time * 60000)
+}
+function setOffline() {
+    if (kickout == 1) return;
+    ajax("guest.php?act=offline", donothing)
+}
+function setOnline() {
+    kickout = 0;
+    lock = 0;
+    ajax("guest.php?act=online");
+    autoOffline()
+}
+function waiting() {
+    if (kickout == 1 || lock == 1) return;
+    clearTimeout(response_tout);
+    response_tout = setTimeout('welive()', refresh_time * 1000)
+}
+function welive() {
+    if (kickout == 1 || lock == 1) return;
+    ajax("waiting.php")
+}
+function sending() {
+    if (sys_status == 0 || sys_status == 2 || is_online == 0 || is_banned == 1 || kickout == 1) return;
+    if (lock == 0) {
+        var ajaxLine = eMessage.value.replace(/(^\s+)|\s+$/g, "").replace(/\^\^\^|\|\|\|/g, "");
+        if (ajaxLine.length > 0) {
+            ajaxLine = ajaxLine.replace(/\?/g, '%3F').replace(/&/g, '%26').replace(/\+/g, '%2B').replace(/\r\n|\n|\r/g, "<br>");
+            var url = "waiting.php?act=sending&ajaxline=" + ajaxLine + "&ajaxbiu=" + ajaxB + ajaxI + ajaxU + "&ajaxcolor=" + ajaxC;
+            ajax(url);
+            autoOffline()
+        }
+        eMessage.value = ""
+    }
+    setFocus()
+}
+function welive_output(data) {
+    lock = 0;
+    waiting();
+    if (data === 0) {
+        setStatus(0);
+        return
+    }
+    setStatus(1);
+    var newdata = data;
+    newdata = newdata.split('||||||');
+    ajax_last = newdata[0];
+    newdata = newdata[1];
+    if (newdata == 2) {
+        setStatus(2);
+        return
+    }
+    if (newdata.match(/kickout\^\^\^/i)) {
+        kickout = 1;
+        newdata = newdata.replace(/kickout\^\^\^/ig, '0|||' + er_kickout + '|||0|||000|||0^^^')
+    }
+    if (newdata.match(/offline\^\^\^/i)) {
+        if (is_online == 1) {
+            is_online = 0;
+            newdata = newdata.replace(/offline\^\^\^/ig, '0|||' + username + er_useroffline + '|||0|||000|||0^^^')
+        } else {
+            return
+        }
+    } else if (is_online == 0) {
+        is_online = 1;
+        newdata = '0|||' + username + reonline + '|||1|||000|||0^^^' + newdata
+    }
+    if (newdata.match(/banned\^\^\^/i)) {
+        if (is_banned == 0) {
+            is_banned = 1;
+            newdata = newdata.replace(/banned\^\^\^/ig, '0|||' + er_banned + '|||0|||000|||0^^^')
+        } else {
+            newdata = newdata.replace(/banned\^\^\^/ig, '')
+        }
+    } else if (is_banned == 1) {
+        is_banned = 0;
+        newdata = '0|||' + unbanned + '|||1|||000|||0^^^' + newdata
+    }
+    if (newdata.length > 18) {
+        var aline, time, sender, msg, stype, content, ctype, biu, color, style;
+        var lines = newdata.split('^^^');
+        newdata = "";
+        var do_flashTitle = true;
+        for (var i = 0; i < lines.length; i++) {
+            aline = lines[i].split('|||');
+            if (aline[1]) {
+                time = "<span class=time>" + getLocalTime() + "</span>";
+                stype = aline[0];
+                content = format_output(aline[1]);
+                ctype = aline[2];
+                biu = aline[3];
+                color = aline[4];
+                style = '';
+                if (color != 0) style = "color:#" + color + ";";
+                if (biu.match(/1\d\d/i)) style += "font-weight:bold;";
+                if (biu.match(/\d1\d/i)) style += "font-style:italic;";
+                if (biu.match(/\d\d1/i)) style += "text-decoration:underline;";
+                if (ctype == 2) {
+                    msg = "<span style=\"" + style + "\">" + content + "</span>"
+                } else {
+                    msg = content
+                }
+                if (stype == 0) {
+                    if (ctype == 0) {
+                        msg = '<div class="msg e"><div class="msg_b e_bg"><div class="ico"></div><div class="msg_i">' + msg + '</div></div></div>'
+                    } else {
+                        msg = '<div class="msg i"><div class="msg_b i_bg"><div class="ico"></div><div class="msg_i">' + msg + '</div></div></div>'
+                    }
+                } else if (stype == 1) {
+                    msg = '<div class="msg o"><div class="pip"></div><div class="msg_b o_bg"><div class="msg_i">' + msg + '</div></div><div class="msg_t">' + time + '</div></div>'
+                } else if (stype == 2) {
+                    msg = '<div class="msg g"><div class="pip"></div><div class="msg_b g_bg"><div class="msg_i">' + msg + '</div></div><div class="msg_t">' + time + '</div></div>';
+                    do_flashTitle = false
+                }
+                newdata = newdata + msg + '<div class="clear"></div>'
+            }
+        }
+        eHistory.innerHTML = eHistory.innerHTML + newdata;
+        if (allow_sound == 1 && do_flashTitle) {
+            eSounder.innerHTML = sound
+        }
+        if (do_flashTitle) flashTitle();
+        eHistory.scrollTop = eHistory.scrollHeight;
+        window.focus();
+        setFocus()
+    }
+}
+function format_output(data) {
+    data = data.replace(/((href=\"|\')?(((https?|ftp):\/\/)|www\.)([\w\-]+\.)+[\w\.\/=\?%\-&~\':+!#]*)/ig, function($1) {
+        return getURL($1)
+    });
+    data = data.replace(/([\-\.\w]+@[\.\-\w]+(\.\w+)+)/ig, '<a href="mailto:$1" target="_blank">$1</a>');
+    data = data.replace(/\[:(\d*):\]/g, '<img src="' + t_url + 'smilies/$1.gif">');
+    return data
+}
+function getURL(url) {
+    if (url.substr(0, 5).toLowerCase() == 'href=') return url;
+    var urllink = '<a href="' + (url.substr(0, 4).toLowerCase() == 'www.' ? 'http://' + url : url) + '" target="_blank" title="' + url + '">';
+    if (url.length > 60) {
+        url = url.substr(0, 30) + ' ... ' + url.substr(url.length - 18)
+    }
+    urllink += url + '</a>';
+    return urllink
+}
+_attachEvent(document, 'mousedown', stopFlashTitle);
