@@ -14,8 +14,8 @@ $welive_onlines  = array (
       array (
         'username' => 'mszhang',
         'type' => '1',
-        'isonline' => '0',
-        'isbusy' => '0',
+        'isonline' => '1',
+        'isbusy' => '1',
         'userfrontname' => '张小娟',
         'userfrontename' => 'Ms.Zhang',
       ),

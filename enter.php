@@ -162,6 +162,7 @@ $js_var = "pagetitle=\"".SITE_TITLE."\",newmsg=\"$lang[newmsg]\",soundon=\"$lang
 		<div id="tools_italic" class="tools_italic_off" onmouseover="chClassname(this, 'italic');" onclick="toggleTools('italic');" title="<?php echo $lang['italic']?>"></div>
 		<div id="tools_underline" class="tools_underline_off" onmouseover="chClassname(this, 'underline');" onclick="toggleTools('underline');" title="<?php echo $lang['underline']?>"></div>
 		<div id="tools_reset" class="tools_reset_off" onmouseover="chClassname(this, 'reset');" onclick="ResetInput();" title="<?php echo $lang['reset']?>"></div>
+		<div id="tools_reset"><input type="file" name="bug_sc" class="scwj"/></div>
 		<div id="sounder" style="width:0;height:0;visibility:hidden;overflow:hidden;"></div>
 	</div>
 

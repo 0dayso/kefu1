@@ -105,7 +105,7 @@ jx = {
         http.send(parameters)
     },
     bind: function(a) {
-        console.log(a);
+        //console.log(a);
         var c = {
             url: "",
             onSuccess: false,
