@@ -70,11 +70,11 @@ if($_CFG['cActived']){
 
 	var welive_panel_top = "<style type=\"text\/css\">#welive-righDiv,#welive-closeDiv{padding:0px;position:absolute;}</style>" +
 
-	"<div id=\"welive-closeDiv\" style=\"z-index:200018;width:60px;height:60px;top:108px;right:0px;display:" + (panel_status == 0? "none" : "block") + ";\">" +
+	"<div id=\"welive-closeDiv\" style=\"z-index:200018;width:60px;height:60px;top:108px;right:0px;display:" + (panel_status == 1? "none" : "block") + ";\">" +
 
 	"<div style=\"width:60px;height:60px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\''.TURL.'images/panel_open_bg.png\', sizingMethod=\'scale\');background:url(\''.TURL.'images/panel_open_bg.png\') !important;background:;\"><div style=\"position:absolute;right:12px;top:12px;\"><a onClick=\"welive_open_panel();return false;\" style=\"cursor:pointer;\" title=\"Open Panel\"><img src=\"'.TURL.'images/panel_open.png\" style=\"border:0;\" onMouseOver=\"this.src=\''.TURL.'images/panel_open2.png\';\" onMouseOut=\"this.src=\''.TURL.'images/panel_open.png\';\"></a></div></div></div>" +
 
-	"<div id=\"welive-righDiv\" style=\"z-index:200008;width:168px;top:108px;right:0px;display:" + (panel_status == 0? "block" : "none") + ";\">" +
+	"<div id=\"welive-righDiv\" style=\"z-index:200008;width:168px;top:108px;right:0px;display:" + (panel_status == 0? "none" : "block") + ";\">" +
 
 	"<div style=\"height:30px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\''.TURL.'images/panel_top.png\', sizingMethod=\'scale\');background:url(\''.TURL.'images/panel_top.png\') !important;background:;\"><div style=\"position:absolute;left:12px;top:9px;\"><img src=\"'.TURL.'images/' . Iif(IS_CHINESE, 'panel_title.png', 'panel_title_en.png'). '\" style=\"border:0;\"></div><div style=\"position:absolute;right:9px;top:9px;\"><a onClick=\"welive_close_panel();return false;\" style=\"cursor:pointer;\" title=\"Close\"><img src=\"'.TURL.'images/panel_close.png\" style=\"border:0;\"  onMouseOver=\"this.src=\''.TURL.'images/panel_close2.png\';\" onMouseOut=\"this.src=\''.TURL.'images/panel_close.png\';\"></a></div></div>";
 
