@@ -1,9 +1,9 @@
 <?php
 
 $servername  = 'localhost';
-$dbname      = 'WeLive';
-$dbusername  = 'root';
-$dbpassword  = 'root';
+$dbname      = '';
+$dbusername  = '';
+$dbpassword  = '';
 
 define('WELIVE', true);
 define('TABLE_PREFIX', 'welive_');
