@@ -239,7 +239,7 @@ function header_utf8() {
 	header("Content-type: text/html; charset=UTF-8");
 }
 
-// #####################
+// #####################生成验证码记录
 
 function CreateVVC() {
 	global $DB;
@@ -249,7 +249,7 @@ function CreateVVC() {
 	return $DB->insert_id();
 }
 
-// #####################
+// #####################验证验证码
 
 function CheckVVC($vvcid, $code) {
 	global $DB;
@@ -267,7 +267,7 @@ function CheckVVC($vvcid, $code) {
 	return false;
 }
 
-// #####################
+// #####################更新缓存
 function storeCache(){
 	global $DB;
 

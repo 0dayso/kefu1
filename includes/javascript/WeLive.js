@@ -4,6 +4,7 @@ function $(id) {
 function isUndefined(variable) {
     return typeof variable == 'undefined' ? true : false
 }
+//有新消息
 function flashTitle() {
     clearInterval(tttt);
     flashtitle_step = 1;
@@ -24,6 +25,7 @@ function stopFlashTitle() {
         document.title = pagetitle
     }
 }
+//获取时间
 function getLocalTime() {
     var date = new Date();
 
@@ -59,6 +61,7 @@ function timer_start() {
     displaytime();
     setTimeout('timer_start()', 1000)
 }
+//显示在线时间
 function displaytime() {
     var sec_display, mins_display, hours_display;
     if (seconds < 10) {
@@ -96,6 +99,7 @@ function chSoundTitle(obj) {
         obj.title = soundon
     }
 }
+//初始化
 function initObj() {
     eHistory = $('history');
     eSmile = $('smile');
@@ -117,6 +121,7 @@ function initObj() {
 function setFocus() {
     eMessage.focus()
 }
+//聊天窗口切换字体声音
 function toggleTools(tool) {
     var obj = $('tools_' + tool);
     if (tool == 'sound') {
@@ -230,6 +235,7 @@ function showSmilies(delay) {
         }, 280)
     }
 }
+//插入表情
 function insertSmilies(code) {
     var obj = eMessage;
     var selection = document.selection;
@@ -246,10 +252,11 @@ function insertSmilies(code) {
         obj.value += code
     }
 }
+//enter输入
 function ctrlEnter(event) {
     stopFlashTitle();
     if (isUndefined(event)) event = window.event;
-    if (event.keyCode == 13 && event.ctrlKey) {
+    if (event.keyCode == 13 || event.ctrlKey) {
         sending()
     }
     return false
@@ -271,6 +278,7 @@ function setStatus(status) {
         eStatus_err2.style.display = "block"
     }
 }
+//ajax发送消息
 function ajax(url, callback, updating, loading, format, method) {
 
     clearTimeout(response_tout);
@@ -313,12 +321,14 @@ function setOffline() {
     if (kickout == 1) return;
     ajax("guest.php?act=offline", donothing)
 }
+//上线
 function setOnline() {
     kickout = 0;
     lock = 0;
     ajax("guest.php?act=online");
     autoOffline()
 }
+//等待服务器回答
 function waiting() {
     if (kickout == 1 || lock == 1) return;
     clearTimeout(response_tout);
@@ -328,6 +338,7 @@ function welive() {
     if (kickout == 1 || lock == 1) return;
     ajax("waiting.php")
 }
+//发送信息
 function sending() {
     if (sys_status == 0 || sys_status == 2 || is_online == 0 || is_banned == 1 || kickout == 1) return;
     if (lock == 0) {
@@ -342,6 +353,7 @@ function sending() {
     }
     setFocus()
 }
+//对话框弹出信息
 function welive_output(data) {
     lock = 0;
     waiting();

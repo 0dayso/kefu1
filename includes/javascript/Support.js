@@ -24,7 +24,7 @@ function flashTitle() {
     flashtitle_step = 1;
     tttt = setInterval(function() {
         if (flashtitle_step == 1) {
-            document.title = '【新消息】' + pagetitle;
+            document.title = '【新消息...】' + pagetitle;
             flashtitle_step = 2
         } else {
             document.title = '【　　　】' + pagetitle;
@@ -588,7 +588,7 @@ function welive_output(data) {
     allguests = allguests.split('^^^');
     //console.log(allguests);
     var num = gettd();
-    console.log(num);
+    //console.log(num);
     if(num > 10) {
         setbusy()
     }               //添加超过10人自动挂起

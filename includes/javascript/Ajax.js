@@ -1,7 +1,7 @@
 jx = {
     getHTTPObject: function() {
         var a = false;
-        if (typeof ActiveXObject != "undefined") {
+        if (typeof ActiveXObject != "undefined") {          //是否是IE
             try {
                 a = new ActiveXObject("Msxml2.XMLHTTP")
             } catch (c) {
@@ -20,6 +20,7 @@ jx = {
                 }
             }
         }
+        console.log(a);
         return a
     },
     load: function(url, callback, format, method, opt) {
@@ -85,6 +86,7 @@ jx = {
                                 result = http.responseXML
                             }
                         }
+                        console.log(callback);
                         if (callback) {
                             callback(result)
                         }
@@ -105,7 +107,7 @@ jx = {
         http.send(parameters)
     },
     bind: function(a) {
-        //console.log(a);
+
         var c = {
             url: "",
             onSuccess: false,
@@ -136,6 +138,7 @@ jx = {
         if (c.loading) {
             document.getElementById(c.loading).style.display = "block"
         }
+        //console.log(c);
         this.load(c.url, function(e) {
             if (c.onSuccess) {
                 c.onSuccess(e)

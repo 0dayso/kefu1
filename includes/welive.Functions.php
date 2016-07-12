@@ -87,7 +87,7 @@ function WeLiveSend($realtime, $lines, $ajax_last, $error = 0) {
 			$info = $realtime . '||||||' . $lines;
 		}
 	}
-
+	print_r($info);
 	echo $info;
 }
 
