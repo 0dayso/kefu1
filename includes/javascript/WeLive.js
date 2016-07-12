@@ -256,7 +256,7 @@ function insertSmilies(code) {
 function ctrlEnter(event) {
     stopFlashTitle();
     if (isUndefined(event)) event = window.event;
-    if (event.keyCode == 13 || event.ctrlKey) {
+    if (event.keyCode == 13) {
         sending()
     }
     return false

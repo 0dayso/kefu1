@@ -75,10 +75,10 @@ if($action == 'default'){
 	<table id="welive_list" border="0" cellpadding="0" cellspacing="0" class="moreinfo">
 	<thead>
 	<tr>
-	<th>玩家</th>
+	<th>FROM</th>
 	<th>IP地址</th>
 	<th>聊天内容</th>
-	<th>客服</th>
+	<th>TO</th>
 	<th>时间</th>
 	<th><input type="checkbox" checkall="group" onclick="select_deselectAll (\'messagesform\', this, \'group\');"> 删除</th>
 	</tr>
@@ -90,10 +90,11 @@ if($action == 'default'){
     }else{
         while($comment = $DB->fetch($getmessages)){
             echo '<tr>
-			<td>' . $comment['fromid'] . '</td>
+            <td>'.Iif($users[$comment['fromid']], '<a href="admin.users.php?action=edituser&userid='.$comment['fromid'].'">' . $users[$comment['fromid']] . '</a>', $comment['fromid']).'</td>
+			
 			<td>' . Iif($comment['userip'], '<a href="javascript:;" hidefocus="true" onclick="iplocation(\'' . $comment['msgid'] . '\', \'' . $comment['userip'] . '\');return false;" title="查看IP归属地">' . $comment['userip'] . '</a><br><span id="ip_' . $comment['msgid'] . '"></span>', '&nbsp;') . '</td>
 			<td>'.nl2br($comment['msg']). '</a></td>
-			<td>'.Iif($users[$comment['toid']], '<a href="admin.users.php?action=edituser&userid='.$comment['toid'].'">' . $users[$comment['toid']] . '</a>', '已删除').'</td>
+			<td>'.Iif($users[$comment['toid']], '<a href="admin.users.php?action=edituser&userid='.$comment['toid'].'">' . $users[$comment['toid']] . '</a>', $comment['toid']).'</td>
 			<td>' . DisplayDate($comment['created'], 0, 1) . '</td>
 			<td><input type="checkbox" name="deletemessageids[]" value="' . $comment['msgid'] . '" checkme="group"></td>
 			</tr>';

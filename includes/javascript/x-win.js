@@ -403,18 +403,18 @@ function resetKey(e) {
     stopFlashTitle();
     var e = e ? e : window.event;
     var actualCode = e.keyCode ? e.keyCode : e.charCode;
-    if (e.ctrlKey && actualCode == 13) {
+    if (e.ctrlKey && actualCode == 13) {        //enter
         sending()
-    } else if (actualCode == 27) {
+    } else if (actualCode == 27) {              //esc
         var lastID = get_last();
         if (lastID) MyWin.Close("win" + lastID)
-    } else if (e.ctrlKey && actualCode == 40) {
+    } else if (e.ctrlKey && actualCode == 40) {         //down
         var lastID = get_lastopen();
         if (lastID) MyWin.Min("win" + lastID)
-    } else if (e.ctrlKey && actualCode == 38) {
+    } else if (e.ctrlKey && actualCode == 38) {         //up
         var lastID = get_lastmin();
         if (lastID) MyWin.Show("win" + lastID, 'max')
-    } else if (e.ctrlKey && (actualCode == 37 || actualCode == 39)) {
+    } else if (e.ctrlKey && (actualCode == 37 || actualCode == 39)) {       //leftright
         sort_max()
     }
 }
